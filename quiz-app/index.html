@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Mastery Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <main class="glass-panel">
+        <!-- Start Screen -->
+        <section id="start-screen" class="screen active">
+            <div class="header-icon">🚀</div>
+            <h1>English Mastery Quiz</h1>
+            <p>Units 7 to 12 - Comprehensive Test</p>
+            <div class="stats-preview">
+                <div class="stat-box">
+                    <span class="stat-number" id="total-q-preview">0</span>
+                    <span class="stat-label">Total Questions</span>
+                </div>
+                <div class="stat-box" id="saved-stats-box">
+                    <span class="stat-number" id="saved-q-preview">0</span>
+                    <span class="stat-label">Saved</span>
+                </div>
+            </div>
+            <div class="start-actions">
+                <button id="start-btn" class="primary-btn">Start Full Quiz</button>
+                <button id="start-saved-btn" class="secondary-btn hidden">Review Saved Questions</button>
+            </div>
+        </section>
+
+        <!-- Quiz Screen -->
+        <section id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div id="progress-fill" class="progress-fill"></div>
+                    </div>
+                    <div class="progress-text">
+                        Question <span id="current-q-num">1</span> of <span id="total-q-num">1</span>
+                    </div>
+                </div>
+                <button id="save-q-btn" class="icon-btn" title="Save this question">🔖</button>
+            </div>
+            
+            <div class="question-container">
+                <h2 id="question-text">Loading question...</h2>
+                <div id="options-container" class="options-grid">
+                    <!-- Options injected via JS -->
+                </div>
+            </div>
+
+            <div class="quiz-footer">
+                <div id="feedback-message" class="feedback-message"></div>
+                <button id="next-btn" class="primary-btn hidden">Next ➔</button>
+            </div>
+
+            <!-- Explanation Box -->
+            <div id="explanation-box" class="explanation-box hidden" dir="rtl">
+                <div class="explanation-icon">💡</div>
+                <div class="explanation-content">
+                    <h3 class="explanation-title">الشرح والتوضيح</h3>
+                    <p id="explanation-text"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Screen -->
+        <section id="results-screen" class="screen">
+            <div class="header-icon">🏆</div>
+            <h1>Quiz Completed!</h1>
+            
+            <div class="score-circle">
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    <path id="score-circle-path" class="circle" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                    <text id="score-percentage" x="18" y="20.35" class="percentage">0%</text>
+                </svg>
+            </div>
+
+            <div class="score-details">
+                <p>You scored <strong id="final-score">0</strong> out of <strong id="final-total">0</strong></p>
+                <p id="score-comment" class="score-comment">Great effort!</p>
+            </div>
+
+            <button id="restart-btn" class="primary-btn">Back to Menu</button>
+        </section>
+    </main>
+
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
