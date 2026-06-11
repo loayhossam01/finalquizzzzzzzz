@@ -29,6 +29,7 @@ export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
     quitQuiz,
     answerQuestion,
     nextQuestion,
+    previousQuestion,
     currentSubject,
     isLearningMode
   } = useQuizStore();
@@ -344,14 +345,27 @@ export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
                 </>
               )}
               
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={handleNext}
-                className="mt-auto flex items-center justify-center gap-2 w-full px-6 py-4 bg-primary text-primary-foreground rounded-2xl font-bold text-lg shadow-[0_4px_20px_rgba(6,182,212,0.4)]"
-              >
-                Next Question <ArrowRight size={20} />
-              </motion.button>
+              <div className="mt-auto flex flex-col gap-3">
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  onClick={handleNext}
+                  className="flex items-center justify-center gap-2 w-full px-6 py-4 bg-primary text-primary-foreground rounded-2xl font-bold text-lg shadow-[0_4px_20px_rgba(6,182,212,0.4)]"
+                >
+                  السؤال التالي (Next) <ArrowRight size={20} />
+                </motion.button>
+                
+                {isLearningMode && currentStep > 0 && (
+                  <motion.button
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                    onClick={previousQuestion}
+                    className="flex items-center justify-center gap-2 w-full px-6 py-3 bg-foreground/10 hover:bg-foreground/20 text-foreground rounded-2xl font-bold text-base transition-colors"
+                  >
+                    السؤال السابق
+                  </motion.button>
+                )}
+              </div>
             </div>
           </motion.div>
         )}

@@ -26,6 +26,7 @@ interface QuizState {
   startQuiz: (mode: QuizMode, indices: number[]) => void;
   answerQuestion: (realIndex: number, isCorrect: boolean) => void;
   nextQuestion: () => void;
+  previousQuestion: () => void;
   toggleSavedQuestion: (index: number) => void;
   quitQuiz: () => void;
   setLearningMode: (enabled: boolean) => void;
@@ -83,6 +84,18 @@ export const useQuizStore = create<QuizState>()(
             currentStep: newStep,
             isFinished: newStep >= state.activeQuestionIndices.length,
           };
+        });
+      },
+
+      previousQuestion: () => {
+        set((state) => {
+          if (state.currentStep > 0) {
+            return {
+              currentStep: state.currentStep - 1,
+              isFinished: false,
+            };
+          }
+          return state;
         });
       },
 
