@@ -14,6 +14,7 @@ interface QuizState {
   savedQuestions: number[];
   wrongQuestions: number[];
   
+  isLearningMode: boolean;
   quizMode: QuizMode;
   currentSubject: string | null;
   activeQuestionIndices: number[];
@@ -27,6 +28,7 @@ interface QuizState {
   nextQuestion: () => void;
   toggleSavedQuestion: (index: number) => void;
   quitQuiz: () => void;
+  setLearningMode: (enabled: boolean) => void;
 }
 
 export const useQuizStore = create<QuizState>()(
@@ -35,6 +37,7 @@ export const useQuizStore = create<QuizState>()(
       savedQuestions: [],
       wrongQuestions: [],
       
+      isLearningMode: false,
       quizMode: null,
       currentSubject: null,
       activeQuestionIndices: [],
@@ -100,7 +103,12 @@ export const useQuizStore = create<QuizState>()(
           currentStep: 0,
           score: 0,
           isFinished: false,
+          isLearningMode: false,
         });
+      },
+
+      setLearningMode: (enabled: boolean) => {
+        set({ isLearningMode: enabled });
       }
     }),
     {

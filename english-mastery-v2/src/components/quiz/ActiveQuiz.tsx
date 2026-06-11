@@ -29,7 +29,8 @@ export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
     quitQuiz,
     answerQuestion,
     nextQuestion,
-    currentSubject
+    currentSubject,
+    isLearningMode
   } = useQuizStore();
 
   const realIndex = activeQuestionIndices[currentStep];
@@ -54,6 +55,31 @@ export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
     setServerExplanation(null);
     setServerCorrectAnswer(null);
   }, [realIndex]);
+  
+  // Auto-reveal for learning mode
+  useEffect(() => {
+    if (isLearningMode && currentSubject && question) {
+      if (question.imageUrl && currentSubject === 'earth-science') {
+        setShowImage(true);
+      }
+      
+      const fetchAnswer = async () => {
+        setIsLoading(true);
+        try {
+          const result = await submitAnswer(currentSubject, realIndex, null);
+          setServerCorrectAnswer(result.correctAnswer);
+          setServerExplanation(result.explanation);
+          setSelectedOption("LEARNING_MODE_REVEALED");
+        } catch (error) {
+          console.error("Failed to fetch learning mode answer", error);
+        } finally {
+          setIsLoading(false);
+        }
+      };
+      
+      fetchAnswer();
+    }
+  }, [realIndex, isLearningMode, currentSubject, question]);
   
   // State from server response
   const [serverExplanation, setServerExplanation] = useState<string | null>(null);
@@ -130,7 +156,9 @@ export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
         </div>
 
         <div className="flex justify-between items-center mb-8 mt-2">
-          <span className="text-sm font-bold tracking-widest text-primary uppercase">Question {currentStep + 1} of {activeQuestionIndices.length}</span>
+          <span className="text-sm font-bold tracking-widest text-primary uppercase">
+            {isLearningMode ? `وضع التعلم: ${currentStep + 1} / ${activeQuestionIndices.length}` : `Question ${currentStep + 1} of ${activeQuestionIndices.length}`}
+          </span>
           
           <div className="flex items-center gap-2 md:gap-4">
             <button 
@@ -221,9 +249,9 @@ export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
             return (
               <motion.button
                 key={idx}
-                disabled={selectedOption !== null}
-                whileHover={!showStatus ? { scale: 1.02, x: 5 } : {}}
-                whileTap={!showStatus ? { scale: 0.98 } : {}}
+                disabled={selectedOption !== null || isLearningMode}
+                whileHover={!showStatus && !isLearningMode ? { scale: 1.02, x: 5 } : {}}
+                whileTap={!showStatus && !isLearningMode ? { scale: 0.98 } : {}}
                 onClick={() => handleSelect(option)}
                 className={btnClass}
               >
@@ -256,16 +284,16 @@ export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
               />
               
               <motion.button
-                disabled={showStatus || !textInput.trim()}
-                whileHover={(!showStatus && textInput.trim()) ? { scale: 1.02 } : {}}
-                whileTap={(!showStatus && textInput.trim()) ? { scale: 0.98 } : {}}
+                disabled={showStatus || !textInput.trim() || isLearningMode}
+                whileHover={(!showStatus && textInput.trim() && !isLearningMode) ? { scale: 1.02 } : {}}
+                whileTap={(!showStatus && textInput.trim() && !isLearningMode) ? { scale: 0.98 } : {}}
                 onClick={() => handleSelect(textInput.trim())}
                 className="glass-button relative overflow-hidden text-center px-6 py-4 rounded-2xl text-lg font-bold bg-primary text-primary-foreground disabled:opacity-50 shadow-[0_4px_15px_rgba(6,182,212,0.3)] disabled:shadow-none transition-all"
               >
                 {showStatus ? "تم تأكيد الإجابة (اضغط على السهم أدناه للمتابعة)" : "تحقق من الإجابة"}
               </motion.button>
               
-              {!showStatus && (
+              {!showStatus && !isLearningMode && (
                 <button 
                   onClick={handleShowAnswer}
                   className="text-foreground/60 hover:text-primary text-sm underline mt-2 self-center transition-colors"
@@ -278,9 +306,9 @@ export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
         </div>
       </motion.div>
 
-      {/* Right Column: Explanation */}
+      {/* Right Column: Explanation or Next Button */}
       <AnimatePresence>
-        {serverExplanation && (
+        {(serverExplanation || showStatus) && (
           <motion.div
             initial={{ opacity: 0, x: 20, height: 0 }}
             animate={{ opacity: 1, x: 0, height: 'auto' }}
@@ -290,15 +318,31 @@ export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
             <div className="glass-panel p-6 md:p-10 rounded-3xl h-full flex flex-col border-primary/30 shadow-[0_0_30px_rgba(6,182,212,0.15)] relative overflow-hidden">
               <div className="absolute -top-20 -right-20 w-40 h-40 bg-primary/20 rounded-full blur-3xl" />
               
-              <div className="flex justify-between items-start mb-4">
-                <h3 className="text-xl font-heading font-bold text-primary flex items-center gap-2">
-                  <span className="text-2xl">💡</span> الشرح والتوضيح
-                </h3>
-              </div>
-              
-              <div dir="rtl" className="text-lg leading-relaxed text-foreground/90 font-medium mb-8">
-                {serverExplanation}
-              </div>
+              {serverExplanation ? (
+                <>
+                  <div className="flex justify-between items-start mb-4">
+                    <h3 className="text-xl font-heading font-bold text-primary flex items-center gap-2">
+                      <span className="text-2xl">💡</span> الشرح والتوضيح
+                    </h3>
+                  </div>
+                  
+                  <div dir="rtl" className="text-lg leading-relaxed text-foreground/90 font-medium mb-8">
+                    {serverExplanation}
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className="flex justify-between items-start mb-4">
+                    <h3 className="text-xl font-heading font-bold text-primary flex items-center gap-2">
+                      <span className="text-2xl">✅</span> الإجابة الصحيحة
+                    </h3>
+                  </div>
+                  
+                  <div dir="rtl" className="text-lg leading-relaxed text-foreground/90 font-medium mb-8">
+                    {serverCorrectAnswer}
+                  </div>
+                </>
+              )}
               
               <motion.button
                 whileHover={{ scale: 1.05 }}

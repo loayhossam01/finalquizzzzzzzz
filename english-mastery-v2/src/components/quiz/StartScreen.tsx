@@ -11,7 +11,7 @@ interface StartScreenProps {
 }
 
 export default function StartScreen({ totalQuestions, safeQuestions }: StartScreenProps) {
-  const { savedQuestions, wrongQuestions, startQuiz, setSubject } = useQuizStore();
+  const { savedQuestions, wrongQuestions, startQuiz, setSubject, isLearningMode, setLearningMode } = useQuizStore();
 
   const handleStart = (mode: string, indices?: number[]) => {
     let finalIndices: number[] = indices || [];
@@ -44,6 +44,23 @@ export default function StartScreen({ totalQuestions, safeQuestions }: StartScre
         <p className="text-sm md:text-base text-foreground/60">Choose a quiz mode or practice specific units.</p>
       </div>
       
+      {/* Learning Mode Toggle */}
+      <div className="flex items-center justify-between p-4 bg-primary/5 rounded-2xl border border-primary/10">
+        <div className="flex flex-col gap-1">
+          <span className="font-bold text-foreground text-sm md:text-base">وضع التعلم</span>
+          <span className="text-[10px] md:text-xs text-foreground/60">يعرض الإجابات والشرح مباشرة دون احتساب درجات</span>
+        </div>
+        <label className="relative inline-flex items-center cursor-pointer">
+          <input 
+            type="checkbox" 
+            className="sr-only peer" 
+            checked={isLearningMode}
+            onChange={(e) => setLearningMode(e.target.checked)}
+          />
+          <div className="w-11 h-6 bg-foreground/20 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-success"></div>
+        </label>
+      </div>
+
       <div className="flex flex-col gap-6 md:gap-8">
         {/* Core Modes */}
         <div>
