@@ -206,7 +206,7 @@ export const earthScienceQuestions: Question[] = [
   },
   {
     type: 'multiple-choice',
-    question: 'حسب مبدأ الترسيب الأفقي (Original Horizontality)، كيف تترسب الصخور الرسوبية في البداية؟',
+    question: 'كيف تترسب الصخور الرسوبية في البداية؟',
     imageUrl: '/images/earth-science/WhatsApp%20Image%202026-06-10%20at%206.33.40%20PM.jpeg',
     answer: 'في طبقات أفقية أو شبه أفقية',
     explanation: 'ينص مبدأ الترسيب الأفقي على أن الصخور الرسوبية تترسب في طبقات أفقية أو شبه أفقية، وحتى الطبقات المائلة في أسفل التتابع تكونت في البداية في وضع أفقي.',
