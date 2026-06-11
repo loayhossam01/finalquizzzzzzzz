@@ -42,7 +42,7 @@ export default function QuizInstructions({ onAccept, subject }: Props) {
           </p>
           <ul className="list-decimal list-inside space-y-3 marker:text-primary">
             <li>قم بدراسة <strong>الكتاب المدرسي</strong> أولاً.</li>
-            <li>ثم راجع <a href="/documents/Scanned_Documents.pdf" target="_blank" className="text-blue-400 font-bold underline hover:text-blue-300">هذا الملف المرفق (Scanned Documents.pdf)</a> والذي يحتوي على أسئلة الاختبار.</li>
+            <li>ثم راجع <a href="https://t.me/+XDRvmW4hkuwzZTg0" target="_blank" className="text-blue-400 font-bold underline hover:text-blue-300">الملف المرفق في جروب التليجرام</a> والذي يحتوي على أسئلة الاختبار.</li>
             <li>أخيراً، قم بحل المسائل هنا في المنصة كمرجع وتدريب نهائي للمادة.</li>
           </ul>
         </div>
