@@ -234,6 +234,15 @@ export const earthScienceQuestions: Question[] = [
   },
   {
     type: 'multiple-choice',
+    question: 'أجب بـ (صح) أم (خطأ): آثار الحفر هي النوع الوحيد من الآثار المتبقية للحيوانات التي ليس لديها هيكل صلب.',
+    imageUrl: '/images/earth-science/WhatsApp%20Image%202026-06-10%20at%206.33.40%20PM%20(3).jpeg',
+    answer: 'صح',
+    explanation: 'عبارة صحيحة، (آثار الحفر) هي النوع الوحيد من الآثار المتبقية للحيوانات التي لا تملك هيكلاً صلباً كالديدان.',
+    unit: 'تجميعات علم الأرض',
+    options: ['صح', 'خطأ']
+  },
+  {
+    type: 'multiple-choice',
     question: 'أجب بـ (صح) أم (خطأ): التمعدن هو النوع الوحيد من الآثار المتبقية للحيوانات التي ليس لديها هيكل صلب.',
     imageUrl: '/images/earth-science/WhatsApp%20Image%202026-06-10%20at%206.33.40%20PM%20(3).jpeg',
     answer: 'خطأ',
