@@ -3,11 +3,11 @@
 import { motion } from 'framer-motion';
 import { PlayCircle, Bookmark, AlertCircle, BookOpen, ArrowLeft } from 'lucide-react';
 import { useQuizStore, QuizMode } from '@/store/useQuizStore';
-import { SafeQuestion } from './ActiveQuiz';
+import { QuizQuestion } from './ActiveQuiz';
 
 interface StartScreenProps {
   totalQuestions: number;
-  safeQuestions: SafeQuestion[];
+  safeQuestions: QuizQuestion[];
 }
 
 export default function StartScreen({ totalQuestions, safeQuestions }: StartScreenProps) {

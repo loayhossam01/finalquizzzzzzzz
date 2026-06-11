@@ -9,27 +9,21 @@ export default function Home() {
   // Strip answers and explanations on the server before sending to client
   // This prevents cheaters from looking at the JavaScript payload
   const safeEnglishQuestions = englishData.map((q, idx) => ({
+    ...q,
     originalIndex: idx,
-    question: q.question,
-    imageUrl: q.imageUrl,
     options: q.options || [],
-    unit: q.unit
   }));
 
   const safePhysicsQuestions = physicsQuestions.map((q, idx) => ({
+    ...q,
     originalIndex: idx,
-    question: q.question,
-    imageUrl: q.imageUrl,
     options: q.options || [],
-    unit: q.unit
   }));
 
   const safeEarthScienceQuestions = earthScienceQuestions.map((q, idx) => ({
+    ...q,
     originalIndex: idx,
-    question: q.question,
-    imageUrl: q.imageUrl,
     options: q.options || [],
-    unit: q.unit
   }));
 
   return (

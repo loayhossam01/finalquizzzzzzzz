@@ -4,16 +4,16 @@ import { useState, useEffect } from 'react';
 import { useQuizStore } from '@/store/useQuizStore';
 import StartScreen from './StartScreen';
 import ResultScreen from './ResultScreen';
-import ActiveQuiz, { SafeQuestion } from './ActiveQuiz';
+import ActiveQuiz, { QuizQuestion } from './ActiveQuiz';
 import SubjectSelection from '../SubjectSelection';
 import MiniLessonCard from '../lessons/MiniLessonCard';
 import QuizInstructions from './QuizInstructions';
 import { physicsLessons } from '@/data/physics-data';
 
 interface QuizCardProps {
-  safeEnglishQuestions: SafeQuestion[];
-  safePhysicsQuestions: SafeQuestion[];
-  safeEarthScienceQuestions: SafeQuestion[];
+  safeEnglishQuestions: QuizQuestion[];
+  safePhysicsQuestions: QuizQuestion[];
+  safeEarthScienceQuestions: QuizQuestion[];
 }
 
 export default function QuizCard({ safeEnglishQuestions, safePhysicsQuestions, safeEarthScienceQuestions }: QuizCardProps) {

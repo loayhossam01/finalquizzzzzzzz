@@ -4,20 +4,21 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle2, XCircle, ArrowRight, Bookmark, BookmarkCheck, Home, Loader2, Image as ImageIcon } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { useQuizStore } from '@/store/useQuizStore';
-import { submitAnswer } from '@/actions/quizActions';
 import Image from 'next/image';
 
-export interface SafeQuestion {
+export interface QuizQuestion {
   originalIndex: number;
   type?: 'multiple-choice' | 'text' | 'number';
   question: string;
   imageUrl?: string;
   options: string[];
   unit: string;
+  answer: string;
+  explanation: string;
 }
 
 interface ActiveQuizProps {
-  safeQuestions: SafeQuestion[];
+  safeQuestions: QuizQuestion[];
 }
 
 export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
@@ -64,69 +65,53 @@ export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
         setShowImage(true);
       }
       
-      const fetchAnswer = async () => {
-        setIsLoading(true);
-        try {
-          const result = await submitAnswer(currentSubject, realIndex, null);
-          setServerCorrectAnswer(result.correctAnswer);
-          setServerExplanation(result.explanation);
-          setSelectedOption("LEARNING_MODE_REVEALED");
-        } catch (error) {
-          console.error("Failed to fetch learning mode answer", error);
-        } finally {
-          setIsLoading(false);
-        }
-      };
-      
-      fetchAnswer();
+      setServerCorrectAnswer(question.answer);
+      setServerExplanation(question.explanation);
+      setSelectedOption("LEARNING_MODE_REVEALED");
     }
   }, [realIndex, isLearningMode, currentSubject, question]);
   
-  // State from server response
+  // State from response
   const [serverExplanation, setServerExplanation] = useState<string | null>(null);
   const [serverCorrectAnswer, setServerCorrectAnswer] = useState<string | null>(null);
 
   if (!question) return null; // Defensive check
 
-  const handleSelect = async (option: string) => {
+  const normalizeArabic = (text: string) => {
+    return text.trim()
+      .replace(/[أإآا]/g, 'ا')
+      .replace(/[ةه]/g, 'ه')
+      .replace(/\s+/g, ' ');
+  };
+
+  const handleSelect = (option: string) => {
     if (selectedOption || isLoading) return;
     
     setSelectedOption(option);
     setIsLoading(true);
 
     try {
-      // Call Server Action to validate (anti-cheat)
-      const result = await submitAnswer(currentSubject as string, realIndex, option);
-      
-      setServerCorrectAnswer(result.correctAnswer);
-      setServerExplanation(result.explanation);
+      const isCorrect = normalizeArabic(question.answer).includes(normalizeArabic(option)) && option.length > 2;
+      // In multiple-choice exactly matching
+      const finalIsCorrect = question.type === 'text' ? isCorrect : option === question.answer;
+
+      setServerCorrectAnswer(question.answer);
+      setServerExplanation(question.explanation);
       
       // Update global store
-      answerQuestion(realIndex, result.isCorrect);
-    } catch (error) {
-      console.error("Failed to submit answer", error);
-      // Fallback/reset if server error
-      setSelectedOption(null);
+      answerQuestion(realIndex, finalIsCorrect);
     } finally {
       setIsLoading(false);
     }
   };
 
-  const handleShowAnswer = async () => {
+  const handleShowAnswer = () => {
     if (isLoading) return;
     setIsLoading(true);
-    try {
-      const result = await submitAnswer(currentSubject as string, realIndex, null);
-      setServerExplanation(result.explanation);
-      // for text questions, showing the explanation is enough
-      // we can mark it as correct globally so it's checked off
-      answerQuestion(realIndex, true);
-      setSelectedOption("TEXT_ANSWER_REVEALED"); // just a dummy state so UI knows it's answered
-    } catch (error) {
-      console.error("Failed to fetch explanation", error);
-    } finally {
-      setIsLoading(false);
-    }
+    setServerExplanation(question.explanation);
+    answerQuestion(realIndex, true);
+    setSelectedOption("TEXT_ANSWER_REVEALED");
+    setIsLoading(false);
   };
 
   const handleNext = () => {
