@@ -268,6 +268,16 @@ export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
                   }
                 }}
               />
+
+              {showStatus && serverCorrectAnswer && (
+                <div className="mt-2 p-4 bg-success/20 border border-success/50 rounded-2xl flex items-center justify-between">
+                  <div>
+                    <span className="text-sm text-success/80 block mb-1">الإجابة الصحيحة:</span>
+                    <span className="text-lg font-bold text-success">{serverCorrectAnswer}</span>
+                  </div>
+                  <CheckCircle2 className="text-success" size={28} />
+                </div>
+              )}
               
               <motion.button
                 disabled={showStatus || !textInput.trim() || isLearningMode}

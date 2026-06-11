@@ -283,6 +283,24 @@ export const earthScienceQuestions: Question[] = [
     options: []
   },
   {
+    type: 'text',
+    question: 'اكتب المصطلح العلمي: وفيها ينتقل النفط مباشرة من صخر المصدر إلى صخر الخزان.',
+    imageUrl: '/images/earth-science/migration.png',
+    answer: 'الهجرة الأولية',
+    explanation: 'الهجرة الأولية (Main Oil Migration) هي التي ينتقل فيها النفط من المكان الذي تكوّن فيه (صخر المصدر) إلى صخر الخزان.',
+    unit: 'تجميعات علم الأرض',
+    options: []
+  },
+  {
+    type: 'text',
+    question: 'اكتب المصطلح العلمي: عندما يتحرك النفط داخل الخزان نفسه من المناطق ذات الضغط العالي إلى المناطق ذات الضغط الأقل، وينفصل الغاز والنفط والماء حسب الكثافة.',
+    imageUrl: '/images/earth-science/migration.png',
+    answer: 'الهجرة الثانوية',
+    explanation: 'الهجرة الثانوية (Secondary Oil Migration) تحدث داخل الخزان، وفيها ينفصل النفط والماء والغاز بسبب اختلاف الكثافة والضغط.',
+    unit: 'تجميعات علم الأرض',
+    options: []
+  },
+  {
     type: 'multiple-choice',
     question: 'ما هو تحول الطاقة الذي يحدث في محطات طاقة الرياح؟',
     imageUrl: '/images/earth-science/WhatsApp%20Image%202026-06-10%20at%206.33.43%20PM%20(3).jpeg',
