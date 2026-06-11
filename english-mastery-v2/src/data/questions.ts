@@ -18,7 +18,7 @@ export const quizData: Question[] = [
       "raise"
     ],
     "answer": "raise",
-    "explanation": "شرح: كلمة 'boost' تعني زيادة أو رفع شيء ما، ومرادفها هنا هو 'raise'. مثال: The new marketing campaign will boost sales. (الحملة التسويقية الجديدة ستزيد المبيعات).",
+    "explanation": "شرح: كلمة **'boost'** تعني زيادة أو رفع شيء ما، ومرادفها هنا هو **'raise'**. مثال:\n**The new marketing campaign will boost sales.**\n(الحملة التسويقية الجديدة ستزيد المبيعات).",
     "unit": "UNIT 7 - Everyone Makes Mistakes"
   },
   {
@@ -30,7 +30,7 @@ export const quizData: Question[] = [
       "put up with"
     ],
     "answer": "put up with",
-    "explanation": "شرح: كلمة 'endure' تعني تحمل أو الصبر على شيء مزعج، ومرادفها 'put up with'. مثال: I can't endure this noise. (لا أستطيع تحمل هذا الضجيج).",
+    "explanation": "شرح: كلمة **'endure'** تعني تحمل أو الصبر على شيء مزعج، ومرادفها **'put up with'**. مثال:\n**I can't endure this noise.**\n(لا أستطيع تحمل هذا الضجيج).",
     "unit": "UNIT 7 - Everyone Makes Mistakes"
   },
   {
@@ -42,7 +42,7 @@ export const quizData: Question[] = [
       "failure"
     ],
     "answer": "failure",
-    "explanation": "شرح: كلمة 'flop' تعني فشل ذريع، ومرادفها 'failure'. مثال: The new movie was a complete flop. (الفيلم الجديد كان فشلاً ذريعاً).",
+    "explanation": "شرح: كلمة **'flop'** تعني فشل ذريع، ومرادفها **'failure'**. مثال:\n**The new movie was a complete flop.**\n(الفيلم الجديد كان فشلاً ذريعاً).",
     "unit": "UNIT 7 - Everyone Makes Mistakes"
   },
   {
@@ -54,7 +54,7 @@ export const quizData: Question[] = [
       "very angry"
     ],
     "answer": "new thing",
-    "explanation": "شرح: كلمة 'novelty' تعني حداثة أو شيء جديد، ومرادفها 'new thing'. مثال: The novelty of the toy soon wore off. (حداثة اللعبة تلاشت قريباً).",
+    "explanation": "شرح: كلمة **'novelty'** تعني حداثة أو شيء جديد، ومرادفها **'new thing'**. مثال:\n**The novelty of the toy soon wore off.**\n(حداثة اللعبة تلاشت قريباً).",
     "unit": "UNIT 7 - Everyone Makes Mistakes"
   },
   {
@@ -66,7 +66,7 @@ export const quizData: Question[] = [
       "very angry"
     ],
     "answer": "very angry",
-    "explanation": "شرح: كلمة 'outraged' تعني غاضب جداً أو ساخط، ومرادفها 'very angry'. مثال: He was outraged by the unfair decision. (كان غاضباً جداً من القرار غير العادل).",
+    "explanation": "شرح: كلمة **'outraged'** تعني غاضب جداً أو ساخط، ومرادفها **'very angry'**. مثال:\n**He was outraged by the unfair decision.**\n(كان غاضباً جداً من القرار غير العادل).",
     "unit": "UNIT 7 - Everyone Makes Mistakes"
   },
   {
@@ -78,7 +78,7 @@ export const quizData: Question[] = [
       "interfered with"
     ],
     "answer": "interfered with",
-    "explanation": "شرح: كلمة 'tampered' تعني العبث بـ أو التدخل في شيء لتخريبه، ومرادفها 'interfered with'. مثال: Someone tampered with the lock. (شخص ما عبث بالقفل).",
+    "explanation": "شرح: كلمة **'tampered'** تعني العبث بـ أو التدخل في شيء لتخريبه، ومرادفها **'interfered with'**. مثال:\n**Someone tampered with the lock.**\n(شخص ما عبث بالقفل).",
     "unit": "UNIT 7 - Everyone Makes Mistakes"
   },
   {
@@ -88,7 +88,7 @@ export const quizData: Question[] = [
       "should have"
     ],
     "answer": "may have",
-    "explanation": "شرح: نستخدم 'may have + V3' لاستنتاج شيء ربما حدث في الماضي (احتمالية). مثال: I may have left my keys at home. (ربما تركت مفاتيحي في المنزل).",
+    "explanation": "شرح: نستخدم **'may have + V3'** لاستنتاج شيء ربما حدث في الماضي (احتمالية). مثال:\n**I may have left my keys at home.**\n(ربما تركت مفاتيحي في المنزل).",
     "unit": "UNIT 7 - Everyone Makes Mistakes"
   },
   {
@@ -98,7 +98,7 @@ export const quizData: Question[] = [
       "wasn't supposed to"
     ],
     "answer": "wasn't supposed to",
-    "explanation": "شرح: نستخدم 'wasn\\'t supposed to' للتعبير عن شيء لم يكن من المفترض أن يحدث (خطة أو اتفاق لم يتبع). مثال: You weren\\'t supposed to tell anyone! (لم يكن من المفترض أن تخبر أحداً!).",
+    "explanation": "شرح: نستخدم **'wasn**\\**'t supposed to'** للتعبير عن شيء لم يكن من المفترض أن يحدث (خطة أو اتفاق لم يتبع). مثال:\n**You weren\\'t supposed to tell anyone!**\n(لم يكن من المفترض أن تخبر أحداً!).",
     "unit": "UNIT 7 - Everyone Makes Mistakes"
   },
   {
@@ -108,7 +108,7 @@ export const quizData: Question[] = [
       "must have"
     ],
     "answer": "must have",
-    "explanation": "شرح: نستخدم 'must have + V3' لاستنتاج مؤكد في الماضي مبني على دليل قوي. (هنا الدليل هو الابتسامة). مثال: You must have been tired after the long trip. (لابد أنك كنت متعباً بعد الرحلة).",
+    "explanation": "شرح: نستخدم **'must have + V3'** لاستنتاج مؤكد في الماضي مبني على دليل قوي. (هنا الدليل هو الابتسامة). مثال:\n**You must have been tired after the long trip.**\n(لابد أنك كنت متعباً بعد الرحلة).",
     "unit": "UNIT 7 - Everyone Makes Mistakes"
   },
   {
@@ -118,7 +118,7 @@ export const quizData: Question[] = [
       "may have"
     ],
     "answer": "may have",
-    "explanation": "شرح: نستخدم 'may have + V3' لافتراض احتمالي في الماضي عندما لا نكون متأكدين بنسبة 100%. مثال: She may have missed the bus. (ربما فاتتها الحافلة).",
+    "explanation": "شرح: نستخدم **'may have + V3'** لافتراض احتمالي في الماضي عندما لا نكون متأكدين بنسبة 100%. مثال:\n**She may have missed the bus.**\n(ربما فاتتها الحافلة).",
     "unit": "UNIT 7 - Everyone Makes Mistakes"
   },
   {
@@ -128,7 +128,7 @@ export const quizData: Question[] = [
       "should have"
     ],
     "answer": "should have",
-    "explanation": "شرح: نستخدم \"should have\" متبوعة بالتصريف الثالث للفعل للتعبير عن الندم على شيء لم نفعله في الماضي رغم أنه كان من الأفضل فعله. المثال: I should have studied harder. (كان ينبغي علي أن أدرس بجدية أكبر).",
+    "explanation": "شرح: نستخدم **\"should have\"** متبوعة بالتصريف الثالث للفعل للتعبير عن الندم على شيء لم نفعله في الماضي رغم أنه كان من الأفضل فعله. المثال:\n**I should have studied harder.**\n(كان ينبغي علي أن أدرس بجدية أكبر).",
     "unit": "UNIT 7 - Everyone Makes Mistakes"
   },
   {
@@ -138,7 +138,7 @@ export const quizData: Question[] = [
       "shouldn't have"
     ],
     "answer": "shouldn't have",
-    "explanation": "شرح: نستخدم \"shouldn't have\" متبوعة بالتصريف الثالث للتعبير عن الندم على فعل شيء في الماضي لم يكن من الأفضل القيام به. المثال: You shouldn't have eaten all that cake. (لم يكن ينبغي لك أن تأكل كل تلك الكعكة).",
+    "explanation": "شرح: نستخدم **\"shouldn't have\"** متبوعة بالتصريف الثالث للتعبير عن الندم على فعل شيء في الماضي لم يكن من الأفضل القيام به. المثال:\n**You shouldn't have eaten all that cake.**\n(لم يكن ينبغي لك أن تأكل كل تلك الكعكة).",
     "unit": "UNIT 7 - Everyone Makes Mistakes"
   },
   {
@@ -148,7 +148,7 @@ export const quizData: Question[] = [
       "must have"
     ],
     "answer": "was supposed to",
-    "explanation": "شرح: نستخدم \"was/were supposed to\" متبوعة بالفعل في المصدر للتعبير عن شيء كان من المتوقع أو المخطط حدوثه في الماضي ولكنه لم يحدث. المثال: The train was supposed to arrive at 8:00 AM. (كان من المفترض أن يصل القطار في الساعة 8:00 صباحاً).",
+    "explanation": "شرح: نستخدم **\"was/were supposed to\"** متبوعة بالفعل في المصدر للتعبير عن شيء كان من المتوقع أو المخطط حدوثه في الماضي ولكنه لم يحدث. المثال:\n**The train was supposed to arrive at 8:00 AM.**\n(كان من المفترض أن يصل القطار في الساعة 8:00 صباحاً).",
     "unit": "UNIT 7 - Everyone Makes Mistakes"
   },
   {
@@ -158,7 +158,7 @@ export const quizData: Question[] = [
       "may not have"
     ],
     "answer": "should not have",
-    "explanation": "شرح: نستخدم \"should not have\" مع التصريف الثالث للفعل لنوجه لوماً أو نعبّر عن أن فعلاً في الماضي كان خطأً. المثال: You should not have lied to me. (لم يكن ينبغي لك أن تكذب علي).",
+    "explanation": "شرح: نستخدم **\"should not have\"** مع التصريف الثالث للفعل لنوجه لوماً أو نعبّر عن أن فعلاً في الماضي كان خطأً. المثال:\n**You should not have lied to me.**\n(لم يكن ينبغي لك أن تكذب علي).",
     "unit": "UNIT 7 - Everyone Makes Mistakes"
   },
   {
@@ -170,7 +170,7 @@ export const quizData: Question[] = [
       "pledged"
     ],
     "answer": "safeguard",
-    "explanation": "شرح: الكلمة \"safeguard\" تعني \"يصون\" أو \"يحمي\" من الخطر أو الضرر. تستخدم كفعل للتعبير عن توفير الحماية. المثال: We must safeguard our personal information online. (يجب أن نحمي معلوماتنا الشخصية على الإنترنت).",
+    "explanation": "شرح: الكلمة **\"safeguard\"** تعني \"يصون\" أو \"يحمي\" من الخطر أو الضرر. تستخدم كفعل للتعبير عن توفير الحماية. المثال:\n**We must safeguard our personal information online.**\n(يجب أن نحمي معلوماتنا الشخصية على الإنترنت).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -182,7 +182,7 @@ export const quizData: Question[] = [
       "disruption"
     ],
     "answer": "pledged",
-    "explanation": "شرح: الفعل \"pledge\" (في الماضي pledged) يعني \"تعهد\" أو \"أعطى وعداً رسمياً\" بفعل شيء ما. المثال: He pledged to donate money to the charity. (تعهد بالتبرع بالمال للجمعية الخيرية).",
+    "explanation": "شرح: الفعل **\"pledge\"** (في الماضي **pledged**) يعني \"تعهد\" أو \"أعطى وعداً رسمياً\" بفعل شيء ما. المثال:\n**He pledged to donate money to the charity.**\n(تعهد بالتبرع بالمال للجمعية الخيرية).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -194,7 +194,7 @@ export const quizData: Question[] = [
       "summit"
     ],
     "answer": "summit",
-    "explanation": "شرح: كلمة \"summit\" تعني \"قمة\" وتستخدم غالباً للإشارة إلى اجتماع يضم قادة أو رؤساء دول لمناقشة أمور مهمة. المثال: The presidents met at the global summit. (التقى الرؤساء في القمة العالمية).",
+    "explanation": "شرح: كلمة **\"summit\"** تعني \"قمة\" وتستخدم غالباً للإشارة إلى اجتماع يضم قادة أو رؤساء دول لمناقشة أمور مهمة. المثال:\n**The presidents met at the global summit.**\n(التقى الرؤساء في القمة العالمية).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -206,7 +206,7 @@ export const quizData: Question[] = [
       "safeguard"
     ],
     "answer": "vulnerable",
-    "explanation": "شرح: صفة \"vulnerable\" تعني \"ضعيف\" أو \"معرض للأذى/الخطر\" سواء كان جسدياً أو نفسياً. المثال: Old people are particularly vulnerable to the flu. (كبار السن معرضون بشكل خاص للإصابة بالأنفلونزا).",
+    "explanation": "شرح: صفة **\"vulnerable\"** تعني \"ضعيف\" أو \"معرض للأذى/الخطر\" سواء كان جسدياً أو نفسياً. المثال:\n**Old people are particularly vulnerable to the flu.**\n(كبار السن معرضون بشكل خاص للإصابة بالأنفلونزا).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -218,7 +218,7 @@ export const quizData: Question[] = [
       "vulnerable"
     ],
     "answer": "priority",
-    "explanation": "شرح: كلمة \"priority\" تعني \"أولوية\"، أي الشيء الذي يعتبر أكثر أهمية من الأشياء الأخرى ويجب التعامل معه أولاً. المثال: My priority is to finish my homework. (أولويتي هي إنهاء واجباتي المدرسية).",
+    "explanation": "شرح: كلمة **\"priority\"** تعني \"أولوية\"، أي الشيء الذي يعتبر أكثر أهمية من الأشياء الأخرى ويجب التعامل معه أولاً. المثال:\n**My priority is to finish my homework.**\n(أولويتي هي إنهاء واجباتي المدرسية).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -230,7 +230,7 @@ export const quizData: Question[] = [
       "priority"
     ],
     "answer": "disruption",
-    "explanation": "شرح: كلمة \"disruption\" تعني \"اضطراب\" أو \"عرقلة\" لسير الأمور الطبيعي بسبب حدث مفاجئ. المثال: The storm caused a major disruption to train services. (تسببت العاصفة في اضطراب كبير لخدمات القطارات).",
+    "explanation": "شرح: كلمة **\"disruption\"** تعني \"اضطراب\" أو \"عرقلة\" لسير الأمور الطبيعي بسبب حدث مفاجئ. المثال:\n**The storm caused a major disruption to train services.**\n(تسببت العاصفة في اضطراب كبير لخدمات القطارات).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -242,7 +242,7 @@ export const quizData: Question[] = [
       "so much"
     ],
     "answer": "so",
-    "explanation": "شرح: نستخدم \"so\" متبوعة بصفة (أو ظرف) ثم \"that\" للتعبير عن النتيجة، وتعني \"لدرجة أن\". المثال: He was so tired that he fell asleep immediately. (كان متعباً جداً لدرجة أنه نام على الفور).",
+    "explanation": "شرح: نستخدم **\"so\"** متبوعة بصفة (أو ظرف) ثم **\"that\"** للتعبير عن النتيجة، وتعني \"لدرجة أن\". المثال:\n**He was so tired that he fell asleep immediately.**\n(كان متعباً جداً لدرجة أنه نام على الفور).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -254,7 +254,7 @@ export const quizData: Question[] = [
       "so few"
     ],
     "answer": "so little",
-    "explanation": "شرح: نستخدم \"so little\" متبوعة باسم غير معدود للتعبير عن كمية ضئيلة جداً لدرجة تؤدي إلى نتيجة معينة. المثال: I have so little time that I can't take a break. (لدي وقت قليل جداً لدرجة أنني لا أستطيع أخذ استراحة).",
+    "explanation": "شرح: نستخدم **\"so little\"** متبوعة باسم غير معدود للتعبير عن كمية ضئيلة جداً لدرجة تؤدي إلى نتيجة معينة. المثال:\n**I have so little time that I can't take a break.**\n(لدي وقت قليل جداً لدرجة أنني لا أستطيع أخذ استراحة).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -266,7 +266,7 @@ export const quizData: Question[] = [
       "so"
     ],
     "answer": "such a",
-    "explanation": "شرح: نستخدم \"such a/an\" متبوعة بصفة واسم مفرد معدود للإشارة إلى درجة قوية من شيء ما أدت إلى نتيجة معينة. المثال: It was such a beautiful day that we went to the beach. (لقد كان يوماً جميلاً جداً لدرجة أننا ذهبنا إلى الشاطئ).",
+    "explanation": "شرح: نستخدم **\"such a/an\"** متبوعة بصفة واسم مفرد معدود للإشارة إلى درجة قوية من شيء ما أدت إلى نتيجة معينة. المثال:\n**It was such a beautiful day that we went to the beach.**\n(لقد كان يوماً جميلاً جداً لدرجة أننا ذهبنا إلى الشاطئ).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -278,7 +278,7 @@ export const quizData: Question[] = [
       "such a"
     ],
     "answer": "such",
-    "explanation": "شرح: نستخدم \"such\" (بدون a/an) عندما يأتي بعدها صفة واسم جمع للتعبير عن المبالغة المؤدية لنتيجة. المثال: They are such nice people that everyone likes them. (إنهم أشخاص لطفاء جداً لدرجة أن الجميع يحبهم).",
+    "explanation": "شرح: نستخدم **\"such\"** (بدون **a/an**) عندما يأتي بعدها صفة واسم جمع للتعبير عن المبالغة المؤدية لنتيجة. المثال:\n**They are such nice people that everyone likes them.**\n(إنهم أشخاص لطفاء جداً لدرجة أن الجميع يحبهم).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -290,7 +290,7 @@ export const quizData: Question[] = [
       "so"
     ],
     "answer": "so",
-    "explanation": "شرح: تُستخدم \"so\" قبل الصفة لبيان قوة أو شدة الصفة لدرجة تُحدث نتيجة تُذكر بعد \"that\". المثال: The test was so difficult that many students failed. (كان الاختبار صعباً جداً لدرجة أن العديد من الطلاب رسبوا).",
+    "explanation": "شرح: تُستخدم **\"so\"** قبل الصفة لبيان قوة أو شدة الصفة لدرجة تُحدث نتيجة تُذكر بعد **\"that\"**. المثال:\n**The test was so difficult that many students failed.**\n(كان الاختبار صعباً جداً لدرجة أن العديد من الطلاب رسبوا).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -302,7 +302,7 @@ export const quizData: Question[] = [
       "such"
     ],
     "answer": "so few",
-    "explanation": "شرح: تُستخدم \"so few\" متبوعة باسم جمع للإشارة إلى عدد قليل جداً ينتج عنه أثر أو نتيجة معينة. المثال: There were so few tickets left that they sold out in minutes. (كان هناك عدد قليل جداً من التذاكر المتبقية لدرجة أنها بيعت في دقائق).",
+    "explanation": "شرح: تُستخدم **\"so few\"** متبوعة باسم جمع للإشارة إلى عدد قليل جداً ينتج عنه أثر أو نتيجة معينة. المثال:\n**There were so few tickets left that they sold out in minutes.**\n(كان هناك عدد قليل جداً من التذاكر المتبقية لدرجة أنها بيعت في دقائق).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -314,7 +314,7 @@ export const quizData: Question[] = [
       "such a"
     ],
     "answer": "so many",
-    "explanation": "شرح: تُستخدم \"so many\" قبل الاسم الجمع المعدود للتعبير عن كثرة العدد لدرجة تنتج عنها حالة معينة تذكر بعد \"that\". المثال: There are so many options that I am confused. (هناك خيارات كثيرة جداً لدرجة أنني في حيرة).",
+    "explanation": "شرح: تُستخدم **\"so many\"** قبل الاسم الجمع المعدود للتعبير عن كثرة العدد لدرجة تنتج عنها حالة معينة تذكر بعد **\"that\"**. المثال:\n**There are so many options that I am confused.**\n(هناك خيارات كثيرة جداً لدرجة أنني في حيرة).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -325,7 +325,7 @@ export const quizData: Question[] = [
       "shouldn't have"
     ],
     "answer": "could have",
-    "explanation": "شرح: تُستخدم \"could have\" مع التصريف الثالث للتعبير عن شيء كان ممكناً حدوثه في الماضي ولكنه لم يحدث. المثال: You could have told me! (كان بإمكانك أن تخبرني!).",
+    "explanation": "شرح: تُستخدم **\"could have\"** مع التصريف الثالث للتعبير عن شيء كان ممكناً حدوثه في الماضي ولكنه لم يحدث. المثال:\n**You could have told me!**\n(كان بإمكانك أن تخبرني!).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -336,7 +336,7 @@ export const quizData: Question[] = [
       "could have"
     ],
     "answer": "was supposed to",
-    "explanation": "شرح: نستخدم \"was/were supposed to\" متبوعة بالمصدر للتعبير عن التزام أو خطة كانت مفترضة في الماضي ولم تتم كما خطط لها. المثال: I was supposed to call him, but I forgot. (كان من المفترض أن أتصل به، لكني نسيت).",
+    "explanation": "شرح: نستخدم **\"was/were supposed to\"** متبوعة بالمصدر للتعبير عن التزام أو خطة كانت مفترضة في الماضي ولم تتم كما خطط لها. المثال:\n**I was supposed to call him, but I forgot.**\n(كان من المفترض أن أتصل به، لكني نسيت).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -347,7 +347,7 @@ export const quizData: Question[] = [
       "was supposed to"
     ],
     "answer": "could have",
-    "explanation": "شرح: تُستخدم \"could have\" مع التصريف الثالث لبيان وجود خيار أو قدرة على فعل شيء في الماضي ولكن تم اختيار عدم القيام به. المثال: He could have won the race, but he tripped. (كان بإمكانه الفوز بالسباق، لكنه تعثر).",
+    "explanation": "شرح: تُستخدم **\"could have\"** مع التصريف الثالث لبيان وجود خيار أو قدرة على فعل شيء في الماضي ولكن تم اختيار عدم القيام به. المثال:\n**He could have won the race, but he tripped.**\n(كان بإمكانه الفوز بالسباق، لكنه تعثر).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -358,7 +358,7 @@ export const quizData: Question[] = [
       "could"
     ],
     "answer": "couldn't",
-    "explanation": "شرح: تُستخدم \"couldn't have\" (بإضافة have والتصريف الثالث) للتعبير عن الاستحالة أو الاستنتاج المنطقي السلبي في الماضي (من المستحيل أنه فعل ذلك). المثال: She couldn't have stolen the car; she doesn't know how to drive. (من المستحيل أنها سرقت السيارة؛ إنها لا تعرف كيف تقود).",
+    "explanation": "شرح: تُستخدم **\"couldn't have\"** (بإضافة **have** والتصريف الثالث) للتعبير عن الاستحالة أو الاستنتاج المنطقي السلبي في الماضي (من المستحيل أنه فعل ذلك). \nالمثال: \n**She couldn't have stolen the car; she doesn't know how to drive.**\n(من المستحيل أنها سرقت السيارة؛ إنها لا تعرف كيف تقود).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -369,7 +369,7 @@ export const quizData: Question[] = [
       "couldn't have"
     ],
     "answer": "should have",
-    "explanation": "شرح: نستخدم \"should have\" متبوعة بالتصريف الثالث للتعبير عن شيء كان من المفترض القيام به في الماضي ولكنه لم يُنفذ، كنوع من الندم أو العتب. المثال: We should have brought umbrellas. (كان ينبغي علينا إحضار المظلات).",
+    "explanation": "شرح: نستخدم **\"should have\"** متبوعة بالتصريف الثالث للتعبير عن شيء كان من المفترض القيام به في الماضي ولكنه لم يُنفذ، كنوع من الندم أو العتب. \nالمثال: \n**We should have brought umbrellas.**\n(كان ينبغي علينا إحضار المظلات).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -381,7 +381,7 @@ export const quizData: Question[] = [
       "something done without thought"
     ],
     "answer": "forgetful, distracted",
-    "explanation": "شرح: مصطلح \"absent-minded\" يصف الشخص الذي ينسى الأشياء كثيراً أو لا يركز مع ما يدور حوله (شارد الذهن). المثال: The absent-minded professor forgot his keys. (نسي الأستاذ شارد الذهن مفاتيحه).",
+    "explanation": "شرح: مصطلح **\"absent-minded\"** يصف الشخص الذي ينسى الأشياء كثيراً أو لا يركز مع ما يدور حوله (شارد الذهن). \nالمثال: \n**The absent-minded professor forgot his keys.**\n(نسي الأستاذ شارد الذهن مفاتيحه).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -393,7 +393,7 @@ export const quizData: Question[] = [
       "harm"
     ],
     "answer": "a material that causes two materials to stick together",
-    "explanation": "شرح: كلمة \"adhesive\" تعني \"مادة لاصقة\"، أي المادة التي تُستخدم للصق الأشياء ببعضها مثل الغراء. المثال: You need a strong adhesive to fix this broken vase. (تحتاج إلى مادة لاصقة قوية لإصلاح هذه المزهرية المكسورة).",
+    "explanation": "شرح: كلمة **\"adhesive\"** تعني \"مادة لاصقة\"، أي المادة التي تُستخدم للصق الأشياء ببعضها مثل الغراء. \nالمثال: \n**You need a strong adhesive to fix this broken vase.**\n(تحتاج إلى مادة لاصقة قوية لإصلاح هذه المزهرية المكسورة).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -405,7 +405,7 @@ export const quizData: Question[] = [
       "found everywhere"
     ],
     "answer": "something done without thought, as is done by a machine",
-    "explanation": "شرح: ظرف \"automatically\" يعني \"تلقائياً\" أو بشكل آلي دون حاجة للتدخل البشري. المثال: The doors open automatically when someone approaches. (تُفتح الأبواب تلقائياً عندما يقترب شخص ما).",
+    "explanation": "شرح: ظرف **\"automatically\"** يعني \"تلقائياً\" أو بشكل آلي دون حاجة للتدخل البشري. \nالمثال: \n**The doors open automatically when someone approaches.**\n(تُفتح الأبواب تلقائياً عندما يقترب شخص ما).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -417,7 +417,7 @@ export const quizData: Question[] = [
       "harm"
     ],
     "answer": "harm",
-    "explanation": "شرح: كلمة \"damage\" تعني \"أذى\" أو \"تلف\" يُصيب شيئاً ما ويقلل من قيمته أو كفاءته. المثال: The storm caused a lot of damage to the houses. (أحدثت العاصفة الكثير من الأضرار بالمنازل).",
+    "explanation": "شرح: كلمة **\"damage\"** تعني \"أذى\" أو \"تلف\" يُصيب شيئاً ما ويقلل من قيمته أو كفاءته. \nالمثال: \n**The storm caused a lot of damage to the houses.**\n(أحدثت العاصفة الكثير من الأضرار بالمنازل).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -429,7 +429,7 @@ export const quizData: Question[] = [
       "a material that causes two materials to stick together"
     ],
     "answer": "thrown away",
-    "explanation": "شرح: كلمة \"discarded\" هي صفة (أو تصريف ثالث) تعني شيئاً تم رميه أو التخلص منه لأنه لم يعد مرغوباً فيه أو مفيداً. المثال: He picked up a discarded newspaper from the seat. (التقط صحيفة مهملة من المقعد).",
+    "explanation": "شرح: كلمة **\"discarded\"** هي صفة (أو تصريف ثالث) تعني شيئاً تم رميه أو التخلص منه لأنه لم يعد مرغوباً فيه أو مفيداً. \nالمثال: \n**He picked up a discarded newspaper from the seat.**\n(التقط صحيفة مهملة من المقعد).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -441,7 +441,7 @@ export const quizData: Question[] = [
       "a material that causes two materials to stick together"
     ],
     "answer": "found everywhere",
-    "explanation": "شرح: كلمة \"ubiquitous\" هي صفة تعني أن شيئاً ما متواجد أو واسع الانتشار في كل مكان وبشكل ملحوظ. المثال: Mobile phones have become ubiquitous in modern society. (أصبحت الهواتف المحمولة موجودة في كل مكان في المجتمع الحديث).",
+    "explanation": "شرح: كلمة **\"ubiquitous\"** هي صفة تعني أن شيئاً ما متواجد أو واسع الانتشار في كل مكان وبشكل ملحوظ. \nالمثال: \n**Mobile phones have become ubiquitous in modern society.**\n(أصبحت الهواتف المحمولة موجودة في كل مكان في المجتمع الحديث).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -453,7 +453,7 @@ export const quizData: Question[] = [
       "an"
     ],
     "answer": "the",
-    "explanation": "شرح: نستخدم أداة التعريف \"the\" مع الاختراعات عند الحديث عنها بشكل عام كنوع أو فئة وليس كجهاز واحد محدد. المثال: Alexander Graham Bell invented the telephone. (اخترع ألكسندر جراهام بيل الهاتف).",
+    "explanation": "شرح: نستخدم أداة التعريف **\"the\"** مع الاختراعات عند الحديث عنها بشكل عام كنوع أو فئة وليس كجهاز واحد محدد. \nالمثال: \n**Alexander Graham Bell invented the telephone.**\n(اخترع ألكسندر جراهام بيل الهاتف).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -465,7 +465,7 @@ export const quizData: Question[] = [
       "a"
     ],
     "answer": "an",
-    "explanation": "شرح: نستخدم أداة النكرة \"an\" قبل الاسم المفرد المعدود الذي يبدأ بصوت متحرك (مثل i في كلمة invention). وتدل على شيء واحد غير محدد مسبقاً. المثال: She had an amazing idea. (كانت لديها فكرة مذهلة).",
+    "explanation": "شرح: نستخدم أداة النكرة **\"an\"** قبل الاسم المفرد المعدود الذي يبدأ بصوت متحرك (مثل **i** في كلمة **invention**). وتدل على شيء واحد غير محدد مسبقاً. \nالمثال: \n**She had an amazing idea.**\n(كانت لديها فكرة مذهلة).",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -477,7 +477,7 @@ export const quizData: Question[] = [
       "an"
     ],
     "answer": "the",
-    "explanation": "شرح: نستخدم أداة التعريف \"the\" مع صيغة التفضيل العليا (superlative adjectives) مثل \"worst\" لتوضيح أن الشيء أو الشخص هو الأعلى أو الأقل في صفة معينة. المثال: He is the tallest boy in the class.",
+    "explanation": "شرح: نستخدم أداة التعريف **\"the\"** مع صيغة التفضيل العليا (**superlative adjectives**) مثل **\"worst\"** لتوضيح أن الشيء أو الشخص هو الأعلى أو الأقل في صفة معينة. \nالمثال: \n**He is the tallest boy in the class.**",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -489,7 +489,7 @@ export const quizData: Question[] = [
       "the, a, the"
     ],
     "answer": "-, an, -",
-    "explanation": "شرح: لا نستخدم أداة تعريف (-) مع أسماء الدول أو الولايات مثل \"Alaska\" و \"Russia\". ونستخدم الأداة التنكيرية \"an\" قبل الكلمات المفردة التي تبدأ بصوت متحرك مثل \"asset\". المثال: She visited Italy and bought an umbrella.",
+    "explanation": "شرح: لا نستخدم أداة تعريف (-) مع أسماء الدول أو الولايات مثل **\"Alaska\"** و **\"Russia\"**. ونستخدم الأداة التنكيرية **\"an\"** قبل الكلمات المفردة التي تبدأ بصوت متحرك مثل **\"asset\"**. \nالمثال: \n**She visited Italy and bought an umbrella.**",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -499,7 +499,7 @@ export const quizData: Question[] = [
       "any"
     ],
     "answer": "some",
-    "explanation": "شرح: نستخدم \"some\" مع الأسماء غير المعدودة (مثل water) في الجمل الطلبية (الطلب المؤدب) أو العروض، بدلاً من \"any\". المثال: Would you like some tea?",
+    "explanation": "شرح: نستخدم **\"some\"** مع الأسماء غير المعدودة (مثل **water**) في الجمل الطلبية (الطلب المؤدب) أو العروض، بدلاً من **\"any\"**. \nالمثال: \n**Would you like some tea?**",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -509,7 +509,7 @@ export const quizData: Question[] = [
       "some"
     ],
     "answer": "any",
-    "explanation": "شرح: نستخدم \"any\" في الجمل الاستفهامية (الأسئلة) مع الأسماء المعدودة في صيغة الجمع (مثل questions) أو غير المعدودة للاستفسار عن وجود شيء ما. المثال: Do you have any money?",
+    "explanation": "شرح: نستخدم **\"any\"** في الجمل الاستفهامية (الأسئلة) مع الأسماء المعدودة في صيغة الجمع (مثل **questions**) أو غير المعدودة للاستفسار عن وجود شيء ما. \nالمثال: \n**Do you have any money?**",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -519,7 +519,7 @@ export const quizData: Question[] = [
       "any"
     ],
     "answer": "some",
-    "explanation": "شرح: نستخدم \"some\" في صيغة السؤال عندما نعرض على شخص شيئاً (العرض المؤدب)، مع الأسماء المعدودة وغير المعدودة. المثال: Would you like some biscuits?",
+    "explanation": "شرح: نستخدم **\"some\"** في صيغة السؤال عندما نعرض على شخص شيئاً (العرض المؤدب)، مع الأسماء المعدودة وغير المعدودة. \nالمثال: \n**Would you like some biscuits?**",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -529,7 +529,7 @@ export const quizData: Question[] = [
       "any"
     ],
     "answer": "any",
-    "explanation": "شرح: نستخدم \"any\" في الأسئلة للسؤال عن توفر كمية أو عدد من الأسماء المعدودة الجمع أو غير المعدودة. المثال: Are there any apples left?",
+    "explanation": "شرح: نستخدم **\"any\"** في الأسئلة للسؤال عن توفر كمية أو عدد من الأسماء المعدودة الجمع أو غير المعدودة. \nالمثال: \n**Are there any apples left?**",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -539,7 +539,7 @@ export const quizData: Question[] = [
       "some"
     ],
     "answer": "any",
-    "explanation": "شرح: تماماً مثل الأسماء المعدودة، نستخدم \"any\" في الأسئلة للسؤال عن الأسماء غير المعدودة (مثل milk). المثال: Is there any sugar in the tea?",
+    "explanation": "شرح: تماماً مثل الأسماء المعدودة، نستخدم **\"any\"** في الأسئلة للسؤال عن الأسماء غير المعدودة (مثل **milk**). \nالمثال: \n**Is there any sugar in the tea?**",
     "unit": "UNIT 8 - Against the Odds"
   },
   {
@@ -551,7 +551,7 @@ export const quizData: Question[] = [
       "appealing"
     ],
     "answer": "obsession",
-    "explanation": "شرح: الكلمة المناسبة للسياق هي \"obsession\" (هوس)، وهي اسم (Noun) يشير إلى التعلق الشديد بشيء ما، وتأتي بعد أداة التنكير \"an\". المثال: He has an obsession with cleanliness.",
+    "explanation": "شرح: الكلمة المناسبة للسياق هي **\"obsession\"** (هوس)، وهي اسم (**Noun**) يشير إلى التعلق الشديد بشيء ما، وتأتي بعد أداة التنكير **\"an\"**. \nالمثال: \n**He has an obsession with cleanliness.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -563,7 +563,7 @@ export const quizData: Question[] = [
       "extracted"
     ],
     "answer": "traced",
-    "explanation": "شرح: نستخدم الفعل \"traced\" (تم تتبعه/إرجاعه) في صيغة المبني للمجهول \"was traced to\" للإشارة إلى اكتشاف مصدر المشكلة. المثال: The problem was traced to a software bug.",
+    "explanation": "شرح: نستخدم الفعل **\"traced\"** (تم تتبعه/إرجاعه) في صيغة المبني للمجهول **\"was traced to\"** للإشارة إلى اكتشاف مصدر المشكلة. \nالمثال: \n**The problem was traced to a software bug.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -575,7 +575,7 @@ export const quizData: Question[] = [
       "synthetic"
     ],
     "answer": "extracted",
-    "explanation": "شرح: الكلمة الصحيحة هي \"extracted\" (استخرج) كفعل ماضٍ (Past Verb) وتعني سحب شيء أو الحصول عليه من شيء آخر. المثال: They extracted oil from the ground.",
+    "explanation": "شرح: الكلمة الصحيحة هي **\"extracted\"** (استخرج) كفعل ماضٍ (**Past Verb**) وتعني سحب شيء أو الحصول عليه من شيء آخر. \nالمثال: \n**They extracted oil from the ground.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -587,7 +587,7 @@ export const quizData: Question[] = [
       "appealing"
     ],
     "answer": "elements",
-    "explanation": "شرح: الكلمة المناسبة هي \"elements\" (عناصر) وهي اسم جمع (Plural Noun) وتُستخدم للإشارة إلى المواد الكيميائية الأساسية. المثال: Gold is a precious element.",
+    "explanation": "شرح: الكلمة المناسبة هي **\"elements\"** (عناصر) وهي اسم جمع (**Plural Noun**) وتُستخدم للإشارة إلى المواد الكيميائية الأساسية. \nالمثال: \n**Gold is a precious element.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -599,7 +599,7 @@ export const quizData: Question[] = [
       "synthetic"
     ],
     "answer": "synthetic",
-    "explanation": "شرح: الكلمة المناسبة هي الصفة \"synthetic\" (صناعي) وتُستخدم لوصف المواد غير الطبيعية التي يصنعها الإنسان. المثال: The shoes are made of synthetic leather.",
+    "explanation": "شرح: الكلمة المناسبة هي الصفة **\"synthetic\"** (صناعي) وتُستخدم لوصف المواد غير الطبيعية التي يصنعها الإنسان. \nالمثال: \n**The shoes are made of synthetic leather.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -611,7 +611,7 @@ export const quizData: Question[] = [
       "obsession"
     ],
     "answer": "privileged",
-    "explanation": "شرح: الصفة \"privileged\" (محظوظ/يحظى بامتياز) تُستخدم لوصف الشعور بالحصول على فرصة نادرة أو ميزة خاصة، وتأتي بعد الفعل \"feel\". المثال: I feel privileged to work with you.",
+    "explanation": "شرح: الصفة **\"privileged\"** (محظوظ/يحظى بامتياز) تُستخدم لوصف الشعور بالحصول على فرصة نادرة أو ميزة خاصة، وتأتي بعد الفعل **\"feel\"**. \nالمثال: \n**I feel privileged to work with you.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -623,7 +623,7 @@ export const quizData: Question[] = [
       "elements"
     ],
     "answer": "appealing",
-    "explanation": "شرح: الصفة \"appealing\" (جذاب/مشهي) تصف شيئاً يثير الإعجاب أو الرغبة، ونفيها هنا يناسب حالة الطعام المتروك. تأتي بعد الفعل \"look\". المثال: The idea of a holiday is very appealing.",
+    "explanation": "شرح: الصفة **\"appealing\"** (جذاب/مشهي) تصف شيئاً يثير الإعجاب أو الرغبة، ونفيها هنا يناسب حالة الطعام المتروك. تأتي بعد الفعل **\"look\"**. \nالمثال: \n**The idea of a holiday is very appealing.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -634,7 +634,7 @@ export const quizData: Question[] = [
       "hope that"
     ],
     "answer": "forget that",
-    "explanation": "شرح: نستخدم \"forget that\" (تنسى أن) كجملة أمرية منفية (Negative Imperative) متبوعة بجملة فعلية للتذكير بفعل شيء أو حدث مهم. المثال: Don't forget that we have an exam tomorrow.",
+    "explanation": "شرح: نستخدم **\"forget that\"** (تنسى أن) كجملة أمرية منفية (**Negative Imperative**) متبوعة بجملة فعلية للتذكير بفعل شيء أو حدث مهم. \nالمثال: \n**Don't forget that we have an exam tomorrow.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -645,7 +645,7 @@ export const quizData: Question[] = [
       "forget that"
     ],
     "answer": "hope that",
-    "explanation": "شرح: نستخدم الفعل \"hope that\" (نأمل أن) للتعبير عن تمني حدوث شيء جيد في المستقبل، ويأتي بعدها جملة كاملة (فاعل وفعل). المثال: I hope that you will succeed.",
+    "explanation": "شرح: نستخدم الفعل **\"hope that\"** (نأمل أن) للتعبير عن تمني حدوث شيء جيد في المستقبل، ويأتي بعدها جملة كاملة (فاعل وفعل). \nالمثال: \n**I hope that you will succeed.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -656,7 +656,7 @@ export const quizData: Question[] = [
       "complain that"
     ],
     "answer": "know that",
-    "explanation": "شرح: نستخدم \"know that\" (أعرف أن) للتعبير عن إدراك حقيقة معينة قبل تقديم رأي مخالف. المثال: I know that it's late, but I must finish this.",
+    "explanation": "شرح: نستخدم **\"know that\"** (أعرف أن) للتعبير عن إدراك حقيقة معينة قبل تقديم رأي مخالف. \nالمثال: \n**I know that it's late, but I must finish this.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -667,7 +667,7 @@ export const quizData: Question[] = [
       "reporting that"
     ],
     "answer": "complaining that",
-    "explanation": "شرح: نستخدم \"complaining that\" (تشتكي من أن) لوصف شخص يعبر عن عدم رضاه باستمرار، وتأتي مع \"always\" في المضارع المستمر للتعبير عن العادة المزعجة. المثال: He is always complaining that he is tired.",
+    "explanation": "شرح: نستخدم **\"complaining that\"** (تشتكي من أن) لوصف شخص يعبر عن عدم رضاه باستمرار، وتأتي مع **\"always\"** في المضارع المستمر للتعبير عن العادة المزعجة. \nالمثال: \n**He is always complaining that he is tired.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -678,7 +678,7 @@ export const quizData: Question[] = [
       "forget that"
     ],
     "answer": "thought that",
-    "explanation": "شرح: نستخدم \"thought that\" (اعتقدت أن) للتعبير عن اعتقاد في الماضي تبين أنه غير صحيح أو مختلف عن الواقع. المثال: I thought that it was going to rain.",
+    "explanation": "شرح: نستخدم **\"thought that\"** (اعتقدت أن) للتعبير عن اعتقاد في الماضي تبين أنه غير صحيح أو مختلف عن الواقع. \nالمثال: \n**I thought that it was going to rain.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -689,7 +689,7 @@ export const quizData: Question[] = [
       "complain that"
     ],
     "answer": "reported that",
-    "explanation": "شرح: نستخدم الفعل \"reported that\" (أبلغوا أن/أفادوا بأن) لنقل الأخبار أو المعلومات الرسمية (Reported Speech) ويأتي بعدها جملة كاملة. المثال: The news reported that the road is closed.",
+    "explanation": "شرح: نستخدم الفعل **\"reported that\"** (أبلغوا أن/أفادوا بأن) لنقل الأخبار أو المعلومات الرسمية (**Reported Speech**) ويأتي بعدها جملة كاملة. \nالمثال: \n**The news reported that the road is closed.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -701,7 +701,7 @@ export const quizData: Question[] = [
       "confused"
     ],
     "answer": "able to be found",
-    "explanation": "شرح: الكلمة \"detectable\" عبارة عن صفة (Adjective) تعني \"يمكن اكتشافه\" أو \"ملاحظته\". تتكون من الفعل detect واللاحقة able-. المثال: The sound was barely detectable.",
+    "explanation": "شرح: الكلمة **\"detectable\"** عبارة عن صفة (Adjective) تعني \"يمكن اكتشافه\" أو \"ملاحظته\". تتكون من الفعل detect واللاحقة able-. المثال: \n**The sound was barely detectable.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -713,7 +713,7 @@ export const quizData: Question[] = [
       "very surprising"
     ],
     "answer": "confused",
-    "explanation": "شرح: الكلمة \"disoriented\" هي صفة تعني \"تائه\" أو \"مشوش\"، وتُستخدم لوصف فقدان الاتجاه أو الارتباك، وتعمل هنا كصفة تصف حالة الشخص. المثال: When he woke up, he felt completely disoriented.",
+    "explanation": "شرح: الكلمة **\"disoriented\"** هي صفة تعني \"تائه\" أو \"مشوش\"، وتُستخدم لوصف فقدان الاتجاه أو الارتباك، وتعمل هنا كصفة تصف حالة الشخص. المثال: \n**When he woke up, he felt completely disoriented.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -725,7 +725,7 @@ export const quizData: Question[] = [
       "imagining things that are not real"
     ],
     "answer": "causing a strong feeling of excitement and happiness",
-    "explanation": "شرح: الكلمة \"exhilarating\" تعني \"مبهج\" أو \"مثير جداً\"، وهي صفة (Adjective) منتهية بـ ing تُستخدم لوصف الأشياء أو التجارب التي تمنح شعوراً بالسعادة. المثال: The roller coaster ride was exhilarating.",
+    "explanation": "شرح: الكلمة **\"exhilarating\"** تعني \"مبهج\" أو \"مثير جداً\"، وهي صفة (Adjective) منتهية بـ ing تُستخدم لوصف الأشياء أو التجارب التي تمنح شعوراً بالسعادة. المثال: \n**The roller coaster ride was exhilarating.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -737,7 +737,7 @@ export const quizData: Question[] = [
       "confused"
     ],
     "answer": "very thin and tired",
-    "explanation": "شرح: الكلمة \"haggard\" صفة (Adjective) تعني \"شاحب ومتعب\"، وتصف المظهر المرهق بسبب التعب أو القلق. المثال: After working all night, he looked haggard.",
+    "explanation": "شرح: الكلمة **\"haggard\"** صفة (Adjective) تعني \"شاحب ومتعب\"، وتصف المظهر المرهق بسبب التعب أو القلق. المثال: \n**After working all night, he looked haggard.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -749,7 +749,7 @@ export const quizData: Question[] = [
       "very surprising"
     ],
     "answer": "imagining things that are not real",
-    "explanation": "شرح: الكلمة \"hallucinating\" (يهلوس) هي فعل في صيغة الاستمرار (Continuous Form) يعبر عن تخيل أشياء غير موجودة في الواقع. المثال: He had a high fever and started hallucinating.",
+    "explanation": "شرح: الكلمة **\"hallucinating\"** (يهلوس) هي فعل في صيغة الاستمرار (Continuous Form) يعبر عن تخيل أشياء غير موجودة في الواقع. المثال: \n**He had a high fever and started hallucinating.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -761,7 +761,7 @@ export const quizData: Question[] = [
       "the quality of radio waves received by a device"
     ],
     "answer": "remaining whole and unharmed",
-    "explanation": "شرح: الكلمة \"intact\" صفة (Adjective) تعني \"سليم\" أو \"غير متضرر\"، وتستخدم لوصف شيء لم يمسه التلف. المثال: The glass vase survived the fall intact.",
+    "explanation": "شرح: الكلمة **\"intact\"** صفة (Adjective) تعني \"سليم\" أو \"غير متضرر\"، وتستخدم لوصف شيء لم يمسه التلف. المثال: \n**The glass vase survived the fall intact.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -773,7 +773,7 @@ export const quizData: Question[] = [
       "very surprising"
     ],
     "answer": "the quality of radio waves received by a device",
-    "explanation": "شرح: الكلمة \"reception\" هنا اسم (Noun) يعني \"الاستقبال\" في سياق جودة إشارات الراديو أو الهاتف. المثال: The TV reception is very poor here.",
+    "explanation": "شرح: الكلمة **\"reception\"** هنا اسم (Noun) يعني \"الاستقبال\" في سياق جودة إشارات الراديو أو الهاتف. المثال: \n**The TV reception is very poor here.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -785,7 +785,7 @@ export const quizData: Question[] = [
       "confused"
     ],
     "answer": "very surprising",
-    "explanation": "شرح: الكلمة \"startling\" صفة (Adjective) تعني \"مفاجئ\" أو \"مذهل\" وتسبب دهشة أو فزعاً خفيفاً. تتكون من الفعل startle واللاحقة ing. المثال: She gave a startling answer to the question.",
+    "explanation": "شرح: الكلمة **\"startling\"** صفة (Adjective) تعني \"مفاجئ\" أو \"مذهل\" وتسبب دهشة أو فزعاً خفيفاً. تتكون من الفعل startle واللاحقة ing. المثال: \n**She gave a startling answer to the question.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -796,7 +796,7 @@ export const quizData: Question[] = [
       "cooked / caught"
     ],
     "answer": "was cooking / caught",
-    "explanation": "شرح: نستخدم الماضي المستمر (Past Continuous: was cooking) لحدث كان مستمراً في الماضي، والماضي البسيط (Past Simple: caught) لحدث مفاجئ قطعه، وعادة نربطهما بكلمة \"when\". المثال: I was sleeping when the phone rang.",
+    "explanation": "شرح: نستخدم الماضي المستمر (Past Continuous: was cooking) لحدث كان مستمراً في الماضي، والماضي البسيط (Past Simple: caught) لحدث مفاجئ قطعه، وعادة نربطهما بكلمة **\"when\"**. المثال: \n**I was sleeping when the phone rang.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -807,7 +807,7 @@ export const quizData: Question[] = [
       "arrived / stopped"
     ],
     "answer": "arrived / had stopped",
-    "explanation": "شرح: نستخدم الماضي التام (Past Perfect: had stopped) للحدث الذي وقع أولاً، والماضي البسيط (Past Simple: arrived) للحدث الذي وقع بعده. الرابط \"By the time\" يدل على هذا الترتيب الزمني. المثال: By the time I reached the station, the train had left.",
+    "explanation": "شرح: نستخدم الماضي التام (Past Perfect: had stopped) للحدث الذي وقع أولاً، والماضي البسيط (Past Simple: arrived) للحدث الذي وقع بعده. الرابط **\"By the time\"** يدل على هذا الترتيب الزمني. المثال: \n**By the time I reached the station, the train had left.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -818,7 +818,7 @@ export const quizData: Question[] = [
       "were / had appeared"
     ],
     "answer": "had been / appeared",
-    "explanation": "شرح: نستخدم الماضي التام (had been) للإشارة إلى الحدث الذي وقع أولاً في الماضي، والماضي البسيط (appeared) للحدث الذي وقع بعده، وعادة نربطهما بكلمة \"before\". مثال: They had finished the work before the manager arrived.",
+    "explanation": "شرح: نستخدم الماضي التام (had been) للإشارة إلى الحدث الذي وقع أولاً في الماضي، والماضي البسيط (appeared) للحدث الذي وقع بعده، وعادة نربطهما بكلمة **\"before\"**. مثال: \n**They had finished the work before the manager arrived.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -829,7 +829,7 @@ export const quizData: Question[] = [
       "never traveled / had gone"
     ],
     "answer": "had never traveled / went",
-    "explanation": "شرح: نستخدم الماضي التام (had never traveled) للحدث الأقدم قبل وقت محدد في الماضي، والماضي البسيط (went) بعد الرابط 'until'. مثال: She had never seen snow until she visited Canada.",
+    "explanation": "شرح: نستخدم الماضي التام (had never traveled) للحدث الأقدم قبل وقت محدد في الماضي، والماضي البسيط (went) بعد الرابط **'until'**. مثال: \n**She had never seen snow until she visited Canada.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -840,7 +840,7 @@ export const quizData: Question[] = [
       "arrived / had already taken"
     ],
     "answer": "arrived / had already taken",
-    "explanation": "شرح: نستخدم الماضي البسيط (arrived) للحدث الأحدث بعد 'when'، والماضي التام (had already taken) للحدث الذي وقع واكتمل قبله. مثال: When I got to the station, the train had already left.",
+    "explanation": "شرح: نستخدم الماضي البسيط (arrived) للحدث الأحدث بعد **'when'**، والماضي التام (had already taken) للحدث الذي وقع واكتمل قبله. مثال: \n**When I got to the station, the train had already left.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -852,7 +852,7 @@ export const quizData: Question[] = [
       "serious food shortage"
     ],
     "answer": "appear",
-    "explanation": "شرح: كلمة 'emerge' تعني (يظهر أو يبرز)، ومرادفها 'appear'. مثال: The sun began to emerge from behind the clouds. (بدأت الشمس تظهر من خلف الغيوم).",
+    "explanation": "شرح: كلمة **'emerge'** تعني (يظهر أو يبرز)، ومرادفها **'appear'**. مثال: \n**The sun began to emerge from behind the clouds.**\n(بدأت الشمس تظهر من خلف الغيوم).",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -864,7 +864,7 @@ export const quizData: Question[] = [
       "idea of perfection"
     ],
     "answer": "serious food shortage",
-    "explanation": "شرح: كلمة 'famine' تعني (مجاعة أو نقص حاد في الغذاء)، ومرادفها 'serious food shortage'. مثال: The long drought caused a severe famine. (تسبب الجفاف الطويل في مجاعة شديدة).",
+    "explanation": "شرح: كلمة **'famine'** تعني (مجاعة أو نقص حاد في الغذاء)، ومرادفها **'serious food shortage'**. مثال: \n**The long drought caused a severe famine.**\n(تسبب الجفاف الطويل في مجاعة شديدة).",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -876,7 +876,7 @@ export const quizData: Question[] = [
       "the relationship of one part of something"
     ],
     "answer": "idea of perfection",
-    "explanation": "شرح: كلمة 'ideal' تعني (مثالي أو نموذج للكمال)، ومرادفها 'idea of perfection'. مثال: This beach is an ideal place for a vacation. (هذا الشاطئ هو مكان مثالي لقضاء العطلة).",
+    "explanation": "شرح: كلمة **'ideal'** تعني (مثالي أو نموذج للكمال)، ومرادفها **'idea of perfection'**. مثال: \n**This beach is an ideal place for a vacation.**\n(هذا الشاطئ هو مكان مثالي لقضاء العطلة).",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -888,7 +888,7 @@ export const quizData: Question[] = [
       "slightly overweight"
     ],
     "answer": "feeling rather than reason or behavior",
-    "explanation": "شرح: كلمة 'instinctive' تعني (غريزي أو فطري يعتمد على الشعور بدلاً من العقل)، ومرادفها 'feeling rather than reason or behavior'. مثال: Birds have an instinctive fear of cats. (الطيور لديها خوف غريزي من القطط).",
+    "explanation": "شرح: كلمة **'instinctive'** تعني (غريزي أو فطري يعتمد على الشعور بدلاً من العقل)، ومرادفها **'feeling rather than reason or behavior'**. مثال: \n**Birds have an instinctive fear of cats.**\n(الطيور لديها خوف غريزي من القطط).",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -900,7 +900,7 @@ export const quizData: Question[] = [
       "the relationship of one part of something"
     ],
     "answer": "slightly overweight",
-    "explanation": "شرح: كلمة 'plump' تعني (ممتلئ الجسم قليلاً أو بدين نوعاً ما)، ومرادفها 'slightly overweight'. مثال: The baby has cute, plump cheeks. (يمتلك الطفل خدوداً ممتلئة ولطيفة).",
+    "explanation": "شرح: كلمة **'plump'** تعني (ممتلئ الجسم قليلاً أو بدين نوعاً ما)، ومرادفها **'slightly overweight'**. مثال: \n**The baby has cute, plump cheeks.**\n(يمتلك الطفل خدوداً ممتلئة ولطيفة).",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -912,7 +912,7 @@ export const quizData: Question[] = [
       "the relationship of one part of something"
     ],
     "answer": "the relationship of one part of something",
-    "explanation": "شرح: كلمة 'proportion' تعني (نسبة أو تناسب جزء إلى آخر). مثال: The proportion of boys to girls in the class is 2 to 1. (نسبة الأولاد إلى البنات في الصف هي 2 إلى 1).",
+    "explanation": "شرح: كلمة **'proportion'** تعني (نسبة أو تناسب جزء إلى آخر). مثال: \n**The proportion of boys to girls in the class is 2 to 1.**\n(نسبة الأولاد إلى البنات في الصف هي 2 إلى 1).",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -924,7 +924,7 @@ export const quizData: Question[] = [
       "change in form; be different from"
     ],
     "answer": "something against which other things are measured",
-    "explanation": "شرح: كلمة 'standards' تعني (معايير أو مقاييس نُقيّم على أساسها). مثال: The company has high safety standards. (الشركة لديها معايير سلامة عالية).",
+    "explanation": "شرح: كلمة **'standards'** تعني (معايير أو مقاييس نُقيّم على أساسها). مثال: \n**The company has high safety standards.**\n(الشركة لديها معايير سلامة عالية).",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -936,7 +936,7 @@ export const quizData: Question[] = [
       "serious food shortage"
     ],
     "answer": "change in form; be different from",
-    "explanation": "شرح: كلمة 'vary' تعني (يختلف أو يتنوع أو يتغير). مثال: Prices vary depending on the season. (الأسعار تختلف حسب الموسم).",
+    "explanation": "شرح: كلمة **'vary'** تعني (يختلف أو يتنوع أو يتغير). مثال: \n**Prices vary depending on the season.**\n(الأسعار تختلف حسب الموسم).",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -947,7 +947,7 @@ export const quizData: Question[] = [
       "having / cut"
     ],
     "answer": "have / cut",
-    "explanation": "شرح: قاعدة السببية (Causative) تُستخدم عندما يقوم شخص آخر بالفعل نيابة عنك. الصيغة هنا في المستقبل البسيط: will + have + object + V3. مثال: I will have my car fixed.",
+    "explanation": "شرح: قاعدة السببية (Causative) تُستخدم عندما يقوم شخص آخر بالفعل نيابة عنك. الصيغة هنا في المستقبل البسيط: will + have + object + V3. مثال: \n**I will have my car fixed.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -958,7 +958,7 @@ export const quizData: Question[] = [
       "having / cut"
     ],
     "answer": "having / cut",
-    "explanation": "شرح: قاعدة السببية (Causative) في زمن المضارع المستمر للتعبير عن خطة مستقبلية: am/is/are + having + object + V3. مثال: I am having my house painted.",
+    "explanation": "شرح: قاعدة السببية (Causative) في زمن المضارع المستمر للتعبير عن خطة مستقبلية: am/is/are + having + object + V3. مثال: \n**I am having my house painted.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -969,7 +969,7 @@ export const quizData: Question[] = [
       "having / cut"
     ],
     "answer": "have / cut",
-    "explanation": "شرح: قاعدة السببية (Causative) باستخدام صيغة (going to) للتخطيط المستقبلي: am/is/are going to + have + object + V3. مثال: He is going to have his watch repaired.",
+    "explanation": "شرح: قاعدة السببية (Causative) باستخدام صيغة (going to) للتخطيط المستقبلي: am/is/are going to + have + object + V3. مثال: \n**He is going to have his watch repaired.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -980,7 +980,7 @@ export const quizData: Question[] = [
       "had / cut"
     ],
     "answer": "had / cut",
-    "explanation": "شرح: قاعدة السببية (Causative) في زمن الماضي البسيط لأن الحدث وقع بالأمس: had + object + V3. مثال: She had her dress washed yesterday.",
+    "explanation": "شرح: قاعدة السببية (Causative) في زمن الماضي البسيط لأن الحدث وقع بالأمس: had + object + V3. مثال: \n**She had her dress washed yesterday.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -990,7 +990,7 @@ export const quizData: Question[] = [
       "Companies sold beauty products understand..."
     ],
     "answer": "Companies selling beauty products understand...",
-    "explanation": "شرح: لاختصار عبارة الوصل المبنية للمعلوم (Active Relative Clause)، نحذف ضمير الوصل (that/who/which) ونحول الفعل إلى صيغة اسم الفاعل (Verb+ing). مثال: The man standing there is my uncle.",
+    "explanation": "شرح: لاختصار عبارة الوصل المبنية للمعلوم (Active Relative Clause)، نحذف ضمير الوصل (that/who/which) ونحول الفعل إلى صيغة اسم الفاعل (Verb+ing). مثال: \n**The man standing there is my uncle.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -1000,7 +1000,7 @@ export const quizData: Question[] = [
       "People arrived early will be given..."
     ],
     "answer": "People arriving early will be given priority seating.",
-    "explanation": "شرح: يتم تقصير عبارة الوصل المبنية للمعلوم عن طريق حذف ضمير الوصل (who) وتحويل الفعل إلى صيغة (ing)، مثل (arrive -> arriving). مثال: Students studying hard will pass.",
+    "explanation": "شرح: يتم تقصير عبارة الوصل المبنية للمعلوم عن طريق حذف ضمير الوصل (who) وتحويل الفعل إلى صيغة (ing)، مثل (arrive -> arriving). مثال: \n**Students studying hard will pass.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -1010,7 +1010,7 @@ export const quizData: Question[] = [
       "The cosmetics industry, built around making people..."
     ],
     "answer": "The cosmetics industry, built around making people...",
-    "explanation": "شرح: لاختصار عبارة الوصل المبنية للمجهول (Passive Relative Clause)، نحذف ضمير الوصل (which) وفعل الكينونة (was) ونكتفي بالتصريف الثالث (built). مثال: The book written by him is great.",
+    "explanation": "شرح: لاختصار عبارة الوصل المبنية للمجهول (Passive Relative Clause)، نحذف ضمير الوصل (which) وفعل الكينونة (was) ونكتفي بالتصريف الثالث (built). مثال: \n**The book written by him is great.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -1020,7 +1020,7 @@ export const quizData: Question[] = [
       "The jewelry stealing last week..."
     ],
     "answer": "The jewelry stolen last week has been found.",
-    "explanation": "شرح: تقصير عبارة الوصل للمجهول يكون بحذف ضمير الوصل (which) وفعل الكينونة (was) والإبقاء على التصريف الثالث (stolen). مثال: The car stolen yesterday was found.",
+    "explanation": "شرح: تقصير عبارة الوصل للمجهول يكون بحذف ضمير الوصل (which) وفعل الكينونة (was) والإبقاء على التصريف الثالث (stolen). مثال: \n**The car stolen yesterday was found.**",
     "unit": "UNIT 9 - Beauty Is Only Skin Deep"
   },
   {
@@ -1032,7 +1032,7 @@ export const quizData: Question[] = [
       "say complimentary things"
     ],
     "answer": "exceptional",
-    "explanation": "شرح: كلمة 'brilliant' تعني (رائع جداً، متألق أو استثنائي)، ومرادفها 'exceptional'. مثال: She gave a brilliant performance. (قدمت أداءً استثنائياً رائعاً).",
+    "explanation": "شرح: كلمة **'brilliant'** تعني (رائع جداً، متألق أو استثنائي)، ومرادفها **'exceptional'**. مثال: \n**She gave a brilliant performance.**\n(قدمت أداءً استثنائياً رائعاً).",
     "unit": "UNIT 10 - They Said, We Said"
   },
   {
@@ -1044,7 +1044,7 @@ export const quizData: Question[] = [
       "pointing out bad points about"
     ],
     "answer": "move around",
-    "explanation": "شرح: كلمة 'circulate' تعني (يتنقل، يدور، أو ينتشر)، ومرادفها 'move around'. مثال: Blood circulates through the body. (الدم يدور في جميع أنحاء الجسم).",
+    "explanation": "شرح: كلمة **'circulate'** تعني (يتنقل، يدور، أو ينتشر)، ومرادفها **'move around'**.\nمثال:\n**Blood circulates through the body.**\n(الدم يدور في جميع أنحاء الجسم).",
     "unit": "UNIT 10 - They Said, We Said"
   },
   {
@@ -1056,7 +1056,7 @@ export const quizData: Question[] = [
       "making fun of"
     ],
     "answer": "pointing out bad points about",
-    "explanation": "شرح: كلمة 'Criticism' تعني (النقد أو الإشارة إلى النقاط السلبية)، ومعناها 'pointing out bad points about'. مثال: He cannot accept constructive criticism. (إنه لا يستطيع تقبل النقد البناء).",
+    "explanation": "شرح: كلمة **'Criticism'** تعني (النقد أو الإشارة إلى النقاط السلبية)، ومعناها **'pointing out bad points about'**.\nمثال:\n**He cannot accept constructive criticism.**\n(إنه لا يستطيع تقبل النقد البناء).",
     "unit": "UNIT 10 - They Said, We Said"
   },
   {
@@ -1068,7 +1068,7 @@ export const quizData: Question[] = [
       "information that comes from gossip"
     ],
     "answer": "say complimentary things",
-    "explanation": "شرح: كلمة 'praise' تعني (المديح أو الثناء على شخص/شيء)، ومعناها 'say complimentary things'. مثال: The teacher praised the student for his hard work. (أشاد المعلم بالطالب لعمله الجاد).",
+    "explanation": "شرح: كلمة **'praise'** تعني (المديح أو الثناء على شخص/شيء)، ومعناها **'say complimentary things'**.\nمثال:\n**The teacher praised the student for his hard work.**\n(أشاد المعلم بالطالب لعمله الجاد).",
     "unit": "UNIT 10 - They Said, We Said"
   },
   {
@@ -1080,7 +1080,7 @@ export const quizData: Question[] = [
       "gossip that follows an embarrassing event"
     ],
     "answer": "making fun of",
-    "explanation": "شرح: كلمة 'Ridicule' تعني (السخرية أو الاستهزاء من شخص/شيء)، ومعناها 'making fun of'. مثال: It's wrong to ridicule someone for their mistakes. (من الخطأ السخرية من شخص بسبب أخطائه).",
+    "explanation": "شرح: كلمة **'Ridicule'** تعني (السخرية أو الاستهزاء من شخص/شيء)، ومعناها **'making fun of'**.\nمثال:\n**It's wrong to ridicule someone for their mistakes.**\n(من الخطأ السخرية من شخص بسبب أخطائه).",
     "unit": "UNIT 10 - They Said, We Said"
   },
   {
@@ -1092,7 +1092,7 @@ export const quizData: Question[] = [
       "exceptional"
     ],
     "answer": "information that comes from gossip",
-    "explanation": "شرح: كلمة 'Rumor' تعني (إشاعة)، وهي معلومات تنتشر كثرثرة وقد لا تكون صحيحة. مثال: There is a rumor that the company is closing. (هناك إشاعة بأن الشركة ستغلق).",
+    "explanation": "شرح: كلمة **'Rumor'** تعني (إشاعة)، وهي معلومات تنتشر كثرثرة وقد لا تكون صحيحة.\nمثال:\n**There is a rumor that the company is closing.**\n(هناك إشاعة بأن الشركة ستغلق).",
     "unit": "UNIT 10 - They Said, We Said"
   },
   {
@@ -1104,7 +1104,7 @@ export const quizData: Question[] = [
       "gossip that follows an embarrassing event"
     ],
     "answer": "gossip that follows an embarrassing event",
-    "explanation": "شرح: كلمة 'scandal' تعني (فضيحة)، وهي أحداث محرجة أو غير أخلاقية تسبب صدمة أو غضباً للناس وتنتشر كثرثرة. مثال: The politician was involved in a financial scandal. (كان السياسي متورطاً في فضيحة مالية).",
+    "explanation": "شرح: كلمة **'scandal'** تعني (فضيحة)، وهي أحداث محرجة أو غير أخلاقية تسبب صدمة أو غضباً للناس وتنتشر كثرثرة.\nمثال:\n**The politician was involved in a financial scandal.**\n(كان السياسي متورطاً في فضيحة مالية).",
     "unit": "UNIT 10 - They Said, We Said"
   },
   {
@@ -1116,7 +1116,7 @@ export const quizData: Question[] = [
       "pointing out bad points about"
     ],
     "answer": "morally good characteristics",
-    "explanation": "شرح: كلمة 'Virtues' تعني (فضائل)، وهي الصفات الأخلاقية الحميدة أو الخصائص الجيدة. مثال: Honesty and courage are great virtues. (الصدق والشجاعة من الفضائل العظيمة).",
+    "explanation": "شرح: كلمة **'Virtues'** تعني (فضائل)، وهي الصفات الأخلاقية الحميدة أو الخصائص الجيدة.\nمثال:\n**Honesty and courage are great virtues.**\n(الصدق والشجاعة من الفضائل العظيمة).",
     "unit": "UNIT 10 - They Said, We Said"
   },
   {
@@ -1126,7 +1126,7 @@ export const quizData: Question[] = [
       "My mother said if gossiping was a bad habit."
     ],
     "answer": "My mother said that gossiping was a bad habit.",
-    "explanation": "شرح: عند تحويل الكلام المباشر إلى غير مباشر، نضع (that) بعد فعل القول ونحول زمن المضارع (is) إلى ماضي (was). مثال: My mother said that gossiping was a bad habit.",
+    "explanation": "شرح: عند تحويل الكلام المباشر إلى غير مباشر، نضع (**that**) بعد فعل القول ونحول زمن المضارع (**is**) إلى ماضي (**was**).\nمثال:\n**My mother said that gossiping was a bad habit.**",
     "unit": "UNIT 10 - They Said, We Said"
   },
   {
@@ -1136,7 +1136,7 @@ export const quizData: Question[] = [
       "He said that Mark cheated on the test."
     ],
     "answer": "He said that Mark had cheated on the test.",
-    "explanation": "شرح: عند نقل الكلام من الماضي البسيط (cheated)، نقوم بتحويله إلى الماضي التام (had + V3) مع إضافة (that). مثال: He said that Mark had cheated on the test.",
+    "explanation": "شرح: عند نقل الكلام من الماضي البسيط (**cheated**)، نقوم بتحويله إلى الماضي التام (**had + V3**) مع إضافة (**that**).\nمثال:\n**He said that Mark had cheated on the test.**",
     "unit": "UNIT 10 - They Said, We Said"
   },
   {
@@ -1146,7 +1146,7 @@ export const quizData: Question[] = [
       "They said that he likes gossip."
     ],
     "answer": "They said that he liked gossip.",
-    "explanation": "شرح: عند تحويل الكلام المباشر للمضارع البسيط (likes) إلى كلام غير مباشر مع فعل قول ماضٍ (said)، نحول الفعل إلى الماضي البسيط (liked). مثال: They said that he liked gossip.",
+    "explanation": "شرح: عند تحويل الكلام المباشر للمضارع البسيط (**likes**) إلى كلام غير مباشر مع فعل قول ماضٍ (**said**)، نحول الفعل إلى الماضي البسيط (**liked**).\nمثال:\n**They said that he liked gossip.**",
     "unit": "UNIT 10 - They Said, We Said"
   },
   {
@@ -1156,7 +1156,7 @@ export const quizData: Question[] = [
       "They said that he had been gossiping."
     ],
     "answer": "They said that he was gossiping.",
-    "explanation": "شرح: عند تحويل الكلام المباشر إلى غير مباشر، إذا كان فعل القول في الماضي (said)، فإننا نغير زمن الجملة من المضارع المستمر إلى الماضي المستمر.\nمثال: 'I am eating,' he said ➔ He said that he was eating.",
+    "explanation": "شرح: عند تحويل الكلام المباشر إلى غير مباشر، إذا كان فعل القول في الماضي (**said**)، فإننا نغير زمن الجملة من المضارع المستمر إلى الماضي المستمر.\nمثال:\n**'I am eating,' he said ➔ He said that he was eating.**",
     "unit": "UNIT 10 - They Said, We Said"
   },
   {
@@ -1166,7 +1166,7 @@ export const quizData: Question[] = [
       "Jane asked that the rumor was true."
     ],
     "answer": "Jane asked if the rumor was true.",
-    "explanation": "شرح: عند تحويل سؤال (نعم/لا) إلى كلام غير مباشر، نستخدم 'if' أو 'whether'، ونغير ترتيب الجملة إلى الفاعل ثم الفعل، ونحول الزمن إلى الماضي.\nمثال: 'Are you okay?' she asked ➔ She asked if I was okay.",
+    "explanation": "شرح: عند تحويل سؤال (نعم/لا) إلى كلام غير مباشر، نستخدم **'if'** أو **'whether'**، ونغير ترتيب الجملة إلى الفاعل ثم الفعل، ونحول الزمن إلى الماضي.\nمثال:\n**'Are you okay?' she asked ➔ She asked if I was okay.**",
     "unit": "UNIT 10 - They Said, We Said"
   },
   {
@@ -1176,7 +1176,7 @@ export const quizData: Question[] = [
       "He asked that they were spreading rumors."
     ],
     "answer": "He asked if they were spreading rumors.",
-    "explanation": "شرح: عند تحويل الأسئلة التي تبدأ بفعل مساعد إلى كلام غير مباشر، نربط الجملة بـ 'if'، ثم نضع الفاعل قبل الفعل مع تغيير الزمن للماضي.\nمثال: 'Are they coming?' he asked ➔ He asked if they were coming.",
+    "explanation": "شرح: عند تحويل الأسئلة التي تبدأ بفعل مساعد إلى كلام غير مباشر، نربط الجملة بـ **'if'**، ثم نضع الفاعل قبل الفعل مع تغيير الزمن للماضي.\nمثال:\n**'Are they coming?' he asked ➔ He asked if they were coming.**",
     "unit": "UNIT 10 - They Said, We Said"
   },
   {
@@ -1186,7 +1186,7 @@ export const quizData: Question[] = [
       "Mrs. Jackson said she had taught at that school for 15 years."
     ],
     "answer": "Mrs. Jackson said she had taught at that school for 15 years.",
-    "explanation": "شرح: في الكلام غير المباشر، يتغير المضارع التام (have/has + V3) إلى الماضي التام (had + V3). كما تتغير أسماء الإشارة مثل 'this' إلى 'that'.\nمثال: 'I have finished this task,' he said ➔ He said that he had finished that task.",
+    "explanation": "شرح: في الكلام غير المباشر، يتغير المضارع التام (**have/has + V3**) إلى الماضي التام (**had + V3**). كما تتغير أسماء الإشارة مثل **'this'** إلى **'that'**.\nمثال:\n**'I have finished this task,' he said ➔ He said that he had finished that task.**",
     "unit": "UNIT 10 - They Said, We Said"
   },
   {
@@ -1196,7 +1196,7 @@ export const quizData: Question[] = [
       "He said that his cell phone hadn't been working."
     ],
     "answer": "He said that his cell phone wasn't working.",
-    "explanation": "شرح: في الكلام المنقول، يتغير المضارع المستمر (isn't working) إلى ماضي مستمر (wasn't working)، وتتغير الضمائر وصفات الملكية لتناسب المتحدث (my ➔ his). مثال: He said that his cell phone wasn't working.",
+    "explanation": "شرح: في الكلام المنقول، يتغير المضارع المستمر (**isn't working**) إلى ماضي مستمر (**wasn't working**)، وتتغير الضمائر وصفات الملكية لتناسب المتحدث (**my ➔ his**).\nمثال:\n**He said that his cell phone wasn't working.**",
     "unit": "UNIT 10 - They Said, We Said"
   },
   {
@@ -1206,7 +1206,7 @@ export const quizData: Question[] = [
       "The teacher asked John why was he late."
     ],
     "answer": "The teacher asked John why he was late.",
-    "explanation": "شرح: عند نقل الأسئلة التي تبدأ بأداة استفهام (Wh-)، نستخدم نفس الأداة للربط، ثم نضع الفاعل قبل الفعل (ترتيب جملة خبرية) مع تغيير الزمن.\nمثال: 'Where do you live?' he asked ➔ He asked where I lived.",
+    "explanation": "شرح: عند نقل الأسئلة التي تبدأ بأداة استفهام (**Wh**-)، نستخدم نفس الأداة للربط، ثم نضع الفاعل قبل الفعل (ترتيب جملة خبرية) مع تغيير الزمن.\nمثال:\n**'Where do you live?' he asked ➔ He asked where I lived.**",
     "unit": "UNIT 10 - They Said, We Said"
   },
   {
@@ -1218,7 +1218,7 @@ export const quizData: Question[] = [
       "learn"
     ],
     "answer": "learn",
-    "explanation": "شرح: المرادفات (Synonyms) هي كلمات لها نفس المعنى أو معنى مقارب. الفعل 'acquire' يعني 'يكتسب' أو 'يتعلم'، ومرادفه هنا 'learn'.\nمثال: He acquired a new skill ➔ He learned a new skill.",
+    "explanation": "شرح: المرادفات (**Synonyms**) هي كلمات لها نفس المعنى أو معنى مقارب. الفعل **'acquire'** يعني 'يكتسب' أو 'يتعلم'، ومرادفه هنا **'learn'**.\nمثال:\n**He acquired a new skill ➔ He learned a new skill.**",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1230,7 +1230,7 @@ export const quizData: Question[] = [
       "presently"
     ],
     "answer": "continuous",
-    "explanation": "شرح: الكلمة 'consecutive' تعني 'متتالي' أو 'متتابع'، وهي مرادفة لكلمة 'continuous' (مستمر).\nمثال: It rained for three consecutive days ➔ It rained for three continuous days.",
+    "explanation": "شرح: الكلمة **'consecutive'** تعني 'متتالي' أو 'متتابع'، وهي مرادفة لكلمة **'continuous'** (مستمر).\nمثال:\n**It rained for three consecutive days ➔ It rained for three continuous days.**",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1242,7 +1242,7 @@ export const quizData: Question[] = [
       "gigantic"
     ],
     "answer": "presently",
-    "explanation": "شرح: الظرف 'currently' يعني 'حالياً' أو 'في الوقت الحاضر'، ومرادفه هو 'presently'.\nمثال: He is currently working ➔ He is presently working.",
+    "explanation": "شرح: الظرف **'currently'** يعني 'حالياً' أو 'في الوقت الحاضر'، ومرادفه هو **'presently'**.\nمثال:\n**He is currently working ➔ He is presently working.**",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1254,7 +1254,7 @@ export const quizData: Question[] = [
       "dead"
     ],
     "answer": "dead",
-    "explanation": "شرح: الصفة 'extinct' تعني 'منقرض' أو 'ميت'، ويُستخدم كمرادف لها في سياقات معينة كلمة 'dead'.\nمثال: Dinosaurs are extinct ➔ Dinosaurs are dead.",
+    "explanation": "شرح: الصفة **'extinct'** تعني 'منقرض' أو 'ميت'، ويُستخدم كمرادف لها في سياقات معينة كلمة **'dead'**.\nمثال:\n**Dinosaurs are extinct ➔ Dinosaurs are dead.**",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1266,7 +1266,7 @@ export const quizData: Question[] = [
       "regularly"
     ],
     "answer": "gigantic",
-    "explanation": "شرح: الصفة 'immense' تعني 'هائل' أو 'ضخم جداً'، ومرادفها 'gigantic'.\nمثال: An immense building ➔ A gigantic building.",
+    "explanation": "شرح: الصفة **'immense'** تعني 'هائل' أو 'ضخم جداً'، ومرادفها **'gigantic'**.\nمثال:\n**An immense building ➔ A gigantic building.**",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1278,7 +1278,7 @@ export const quizData: Question[] = [
       "continuous"
     ],
     "answer": "regularly",
-    "explanation": "شرح: الظرف 'routinely' يعني 'بشكل روتيني' أو 'بشكل معتاد'، ومرادفه 'regularly' (بانتظام).\nمثال: She routinely checks her emails ➔ She regularly checks her emails.",
+    "explanation": "شرح: الظرف **'routinely'** يعني 'بشكل روتيني' أو 'بشكل معتاد'، ومرادفه **'regularly'** (بانتظام).\nمثال:\n**She routinely checks her emails ➔ She regularly checks her emails.**",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1290,7 +1290,7 @@ export const quizData: Question[] = [
       "presently"
     ],
     "answer": "single",
-    "explanation": "شرح: الصفة 'solitary' تعني 'منعزل' أو 'وحيد'، ويمكن أن تأتي بمعنى 'مفرد' مثل 'single'.\nمثال: A solitary life ➔ A single (alone) life.",
+    "explanation": "شرح: الصفة **'solitary'** تعني 'منعزل' أو 'وحيد'، ويمكن أن تأتي بمعنى 'مفرد' مثل **'single'**.\nمثال:\n**A solitary life ➔ A single (alone) life.**",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1300,7 +1300,7 @@ export const quizData: Question[] = [
       "might"
     ],
     "answer": "might",
-    "explanation": "شرح: الفعل الناقص 'might' يتبعه دائماً الفعل في المصدر (infinitive) بدون 'to'، لذلك نختار 'might' لأن الفعل 'join' في المصدر.\nمثال: They might come tomorrow. (قد يأتون غداً).",
+    "explanation": "شرح: الفعل الناقص **'might'** يتبعه دائماً الفعل في المصدر (**infinitive**) بدون **'to'**، لذلك نختار **'might'** لأن الفعل **'join'** في المصدر.\nمثال:\n**They might come tomorrow.**\n(قد يأتون غداً).",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1310,7 +1310,7 @@ export const quizData: Question[] = [
       "likes"
     ],
     "answer": "likes",
-    "explanation": "شرح: إذا كان فعل القول في المضارع (مثل says أو asks)، فإننا لا نغير زمن الفعل في الجملة المنقولة، بل يبقى كما هو (likes).\nمثال: He says he is happy. (يقول إنه سعيد).",
+    "explanation": "شرح: إذا كان فعل القول في المضارع (مثل **says** أو **asks**)، فإننا لا نغير زمن الفعل في الجملة المنقولة، بل يبقى كما هو (**likes**).\nمثال:\n**He says he is happy.**\n(يقول إنه سعيد).",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1320,7 +1320,7 @@ export const quizData: Question[] = [
       "will"
     ],
     "answer": "would",
-    "explanation": "شرح: عند نقل الكلام، يتغير الفعل الناقص 'will' إلى الماضي 'would' إذا كان فعل القول في الماضي (said).\nمثال: 'I will go,' he said ➔ He said that he would go.",
+    "explanation": "شرح: عند نقل الكلام، يتغير الفعل الناقص **'will'** إلى الماضي **'would'** إذا كان فعل القول في الماضي (**said**).\nمثال:\n**'I will go,' he said ➔ He said that he would go.**",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1331,7 +1331,7 @@ export const quizData: Question[] = [
       "both"
     ],
     "answer": "both",
-    "explanation": "شرح: عندما تعبر الجملة المنقولة عن حقيقة عامة أو حالة لا تزال صحيحة، يمكن إبقاء الفعل في المضارع (is) أو تغييره إلى الماضي (was)، كلاهما صحيح.\nمثال: He said the sky is/was blue. (قال إن السماء زرقاء).",
+    "explanation": "شرح: عندما تعبر الجملة المنقولة عن حقيقة عامة أو حالة لا تزال صحيحة، يمكن إبقاء الفعل في المضارع (**is**) أو تغييره إلى الماضي (**was**)، كلاهما صحيح.\nمثال:\n**He said the sky is/was blue.**\n(قال إن السماء زرقاء).",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1341,7 +1341,7 @@ export const quizData: Question[] = [
       "should"
     ],
     "answer": "should",
-    "explanation": "شرح: الفعل الناقص 'should' لا يتغير في الكلام المنقول، ويتبعه الفعل في المصدر (call)، بينما 'should have' يتبعها التصريف الثالث.\nمثال: She said I should study hard. (قالت إنه يجب أن أدرس بجد).",
+    "explanation": "شرح: الفعل الناقص **'should'** لا يتغير في الكلام المنقول، ويتبعه الفعل في المصدر (**call**)، بينما **'should have'** يتبعها التصريف الثالث.\nمثال:\n**She said I should study hard.**\n(قالت إنه يجب أن أدرس بجد).",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1352,7 +1352,7 @@ export const quizData: Question[] = [
       "appears"
     ],
     "answer": "both",
-    "explanation": "شرح: عند التحدث عن حقيقة علمية أو ظاهرة متكررة، يجوز ترك الفعل في المضارع البسيط (appears) أو تحويله إلى الماضي (appeared).\nمثال: He said that water boils/boiled at 100°C.",
+    "explanation": "شرح: عند التحدث عن حقيقة علمية أو ظاهرة متكررة، يجوز ترك الفعل في المضارع البسيط (**appears**) أو تحويله إلى الماضي (**appeared**).\nمثال:\n**He said that water boils/boiled at 100°C.**",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1362,7 +1362,7 @@ export const quizData: Question[] = [
       "has been"
     ],
     "answer": "had been",
-    "explanation": "شرح: في الكلام المباشر الجملة تكون بالمضارع التام (have/has been). عند تحويلها لكلام غير مباشر وفعل القول ماضٍ، تتحول إلى الماضي التام (had been).\nمثال: 'I have seen it,' she said ➔ She said she had seen it.",
+    "explanation": "شرح: في الكلام المباشر الجملة تكون بالمضارع التام (**have/has been**). عند تحويلها لكلام غير مباشر وفعل القول ماضٍ، تتحول إلى الماضي التام (**had been**).\nمثال:\n**'I have seen it,' she said ➔ She said she had seen it.**",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1372,7 +1372,7 @@ export const quizData: Question[] = [
       "call"
     ],
     "answer": "to call",
-    "explanation": "شرح: عند نقل الأوامر أو الطلبات، نستخدم (to + المصدر) للإثبات، و (not to + المصدر) للنهي أو النفي.\nمثال: 'Don\\'t shout,' she asked ➔ She asked us not to shout.",
+    "explanation": "شرح: عند نقل الأوامر أو الطلبات، نستخدم (**to** + المصدر) للإثبات، و (**not to** + المصدر) للنهي أو النفي.\nمثال: \n**'Don\\'t shout,' she asked ➔ She asked us not to shout.**",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1382,7 +1382,7 @@ export const quizData: Question[] = [
       "would"
     ],
     "answer": "would",
-    "explanation": "شرح: تتغير 'will' إلى 'would' في الكلام المنقول عندما يكون فعل القول في زمن الماضي (said).\nمثال: 'I will help,' he said ➔ He said he would help.",
+    "explanation": "شرح: تتغير **'will'** إلى **'would'** في الكلام المنقول عندما يكون فعل القول في زمن الماضي (**said**).\nمثال: \n**'I will help,' he said ➔ He said he would help.**",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1392,7 +1392,7 @@ export const quizData: Question[] = [
       "would"
     ],
     "answer": "would",
-    "explanation": "شرح: مثل الجملة السابقة، الفعل المساعد 'will' يتحول إلى 'would' في الكلام غير المباشر لأن فعل القول (warned) في الماضي.\nمثال: They warned it would rain. (حذروا من أنها ستمطر).",
+    "explanation": "شرح: مثل الجملة السابقة، الفعل المساعد **'will'** يتحول إلى **'would'** في الكلام غير المباشر لأن فعل القول (**warned**) في الماضي.\nمثال: \n**They warned it would rain.**\n(حذروا من أنها ستمطر).",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1404,7 +1404,7 @@ export const quizData: Question[] = [
       "leaving out"
     ],
     "answer": "done or communicated in secret",
-    "explanation": "شرح: الكلمة 'confidential' تعني 'سري' أو 'مكتوم'، أي ما يتم إيصاله أو فعله في الخفاء وبشكل خاص.\nمثال: This document is strictly confidential. (هذه الوثيقة سرية للغاية).",
+    "explanation": "شرح: الكلمة **'confidential'** تعني 'سري' أو 'مكتوم'، أي ما يتم إيصاله أو فعله في الخفاء وبشكل خاص.\nمثال: \n**This document is strictly confidential.**\n(هذه الوثيقة سرية للغاية).",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1416,7 +1416,7 @@ export const quizData: Question[] = [
       "leaving out"
     ],
     "answer": "showing lack of respect",
-    "explanation": "شرح: الصفة 'derogatory' تعني 'ازدرائي' أو 'مهين'، وهي تدل على إظهار عدم الاحترام أو التقليل من شأن شخص أو شيء.\nمثال: He made derogatory remarks about her. (أدلى بتعليقات مهينة عنها).",
+    "explanation": "شرح: الصفة **'derogatory'** تعني 'ازدرائي' أو 'مهين'، وهي تدل على إظهار عدم الاحترام أو التقليل من شأن شخص أو شيء.\nمثال: \n**He made derogatory remarks about her.**\n(أدلى بتعليقات مهينة عنها).",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1428,7 +1428,7 @@ export const quizData: Question[] = [
       "not vulnerable to being affected by something"
     ],
     "answer": "tell something that was secret",
-    "explanation": "شرح: الفعل 'divulge' يعني 'يُفشي' أو 'يكشف'، ويُستخدم عادة عند كشف سر أو معلومات سرية.\nمثال: The police refused to divulge the suspect's identity. (رفضت الشرطة الكشف عن هوية المشتبه به).",
+    "explanation": "شرح: الفعل **'divulge'** يعني 'يُفشي' أو 'يكشف'، ويُستخدم عادة عند كشف سر أو معلومات سرية.\nمثال: \n**The police refused to divulge the suspect's identity.**\n(رفضت الشرطة الكشف عن هوية المشتبه به).",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1440,7 +1440,7 @@ export const quizData: Question[] = [
       "deliberately harmful"
     ],
     "answer": "leaving out",
-    "explanation": "شرح: الكلمة 'excluding' تعني 'باستثناء' أو 'مستبعداً'، أي ترك شيء أو شخص خارج المجموعة أو الحساب.\nمثال: The price is $50, excluding tax. (السعر 50 دولاراً، باستثناء الضريبة).",
+    "explanation": "شرح: الكلمة **'excluding'** تعني 'باستثناء' أو 'مستبعداً'، أي ترك شيء أو شخص خارج المجموعة أو الحساب.\nمثال: \n**The price is $50, excluding tax.**\n(السعر 50 دولاراً، باستثناء الضريبة).",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1452,7 +1452,7 @@ export const quizData: Question[] = [
       "done or communicated in secret"
     ],
     "answer": "not vulnerable to being affected by something",
-    "explanation": "شرح: الصفة 'immune' تعني 'محصن' أو 'غير متأثر'، سواء من مرض معين أو من تأثيرات خارجية.\nمثال: Adults are often immune to this virus. (غالباً ما يكون البالغون محصنين ضد هذا الفيروس).",
+    "explanation": "شرح: الصفة **'immune'** تعني 'محصن' أو 'غير متأثر'، سواء من مرض معين أو من تأثيرات خارجية.\nمثال: \n**Adults are often immune to this virus.**\n(غالباً ما يكون البالغون محصنين ضد هذا الفيروس).",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1464,7 +1464,7 @@ export const quizData: Question[] = [
       "done or communicated in secret"
     ],
     "answer": "deliberately harmful",
-    "explanation": "شرح: الصفة 'malicious' تعني 'خبيث' أو 'كيدي'، وتصف الأفعال التي تهدف إلى إيذاء الآخرين عن قصد.\nمثال: They faced malicious gossips. (واجهوا شائعات خبيثة).",
+    "explanation": "شرح: الصفة **'malicious'** تعني 'خبيث' أو 'كيدي'، وتصف الأفعال التي تهدف إلى إيذاء الآخرين عن قصد.\nمثال: \n**They faced malicious gossips.**\n(واجهوا شائعات خبيثة).",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1476,7 +1476,7 @@ export const quizData: Question[] = [
       "better than others"
     ],
     "answer": "better than others",
-    "explanation": "شرح: الصفة 'superior' تعني 'متفوق' أو 'أفضل'، وتُستخدم للمقارنة وإظهار الأفضلية على الآخرين.\nمثال: This phone is superior to the old model. (هذا الهاتف يتفوق على الطراز القديم).",
+    "explanation": "شرح: الصفة **'superior'** تعني 'متفوق' أو 'أفضل'، وتُستخدم للمقارنة وإظهار الأفضلية على الآخرين.\nمثال: \n**This phone is superior to the old model.**\n(هذا الهاتف يتفوق على الطراز القديم).",
     "unit": "UNIT 11 - Express Yourself"
   },
   {
@@ -1488,7 +1488,7 @@ export const quizData: Question[] = [
       "treasure"
     ],
     "answer": "preserve",
-    "explanation": "شرح: الكلمة الصحيحة هي 'preserve' وتعني 'يحافظ على'. نستخدمها للحديث عن حماية الأشياء التاريخية أو الهامة. مثال: We must preserve our traditions. (يجب أن نحافظ على تقاليدنا.)",
+    "explanation": "شرح: الكلمة الصحيحة هي **'preserve'** وتعني 'يحافظ على'. نستخدمها للحديث عن حماية الأشياء التاريخية أو الهامة. مثال: \n**We must preserve our traditions.**\n(يجب أن نحافظ على تقاليدنا.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1500,7 +1500,7 @@ export const quizData: Question[] = [
       "theory"
     ],
     "answer": "surrender",
-    "explanation": "شرح: الكلمة الصحيحة هي 'surrender' وتعني 'يستسلم'. تستخدم للتعبير عن التوقف عن المقاومة. مثال: The thieves had to surrender to the police. (اضطر اللصوص للاستسلام للشرطة.)",
+    "explanation": "شرح: الكلمة الصحيحة هي **'surrender'** وتعني 'يستسلم'. تستخدم للتعبير عن التوقف عن المقاومة. مثال: \n**The thieves had to surrender to the police.**\n(اضطر اللصوص للاستسلام للشرطة.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1512,7 +1512,7 @@ export const quizData: Question[] = [
       "notorious"
     ],
     "answer": "theory",
-    "explanation": "شرح: الكلمة الصحيحة هي 'theory' وتعني 'نظرية' أو 'اعتقاد مبني على تفكير'. مثال: My theory is that he is just tired. (نظريتي هي أنه مجرد متعب.)",
+    "explanation": "شرح: الكلمة الصحيحة هي **'theory'** وتعني 'نظرية' أو 'اعتقاد مبني على تفكير'. مثال: \n**My theory is that he is just tired.**\n(نظريتي هي أنه مجرد متعب.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1524,7 +1524,7 @@ export const quizData: Question[] = [
       "notorious"
     ],
     "answer": "notorious",
-    "explanation": "شرح: الكلمة الصحيحة هي 'notorious' وتعني 'سيء السمعة' أو 'معروف بشيء سيء'. مثال: He is a notorious criminal. (إنه مجرم سيء السمعة.)",
+    "explanation": "شرح: الكلمة الصحيحة هي **'notorious'** وتعني 'سيء السمعة' أو 'معروف بشيء سيء'. مثال: \n**He is a notorious criminal.**\n(إنه مجرم سيء السمعة.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1536,7 +1536,7 @@ export const quizData: Question[] = [
       "notorious"
     ],
     "answer": "treasure",
-    "explanation": "شرح: الكلمة الصحيحة هي 'treasure' وتعني 'كنز'. تشير إلى شيء ثمين جداً. مثال: The pirates hid their treasure on the island. (أخفى القراصنة كنزهم في الجزيرة.)",
+    "explanation": "شرح: الكلمة الصحيحة هي **'treasure'** وتعني 'كنز'. تشير إلى شيء ثمين جداً. مثال: \n**The pirates hid their treasure on the island.**\n(أخفى القراصنة كنزهم في الجزيرة.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1546,7 +1546,7 @@ export const quizData: Question[] = [
       "Can be omitted"
     ],
     "answer": "Can be omitted",
-    "explanation": "شرح: يمكن حذف ضمير الوصل (that/which/who) إذا كان يحل محل 'المفعول به' (object) في الجملة، أي إذا جاء بعده فاعل جديد. هنا 'that' جاء بعدها 'they'. مثال: The book (that) I read was good. (الكتاب الذي قرأته كان جيداً.)",
+    "explanation": "شرح: يمكن حذف ضمير الوصل (**that/which/who**) إذا كان يحل محل 'المفعول به' (**object**) في الجملة، أي إذا جاء بعده فاعل جديد. هنا **'that'** جاء بعدها **'they'**. مثال: \n**The book (that) I read was good.**\n(الكتاب الذي قرأته كان جيداً.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1556,7 +1556,7 @@ export const quizData: Question[] = [
       "Can be omitted"
     ],
     "answer": "Cannot be omitted",
-    "explanation": "شرح: لا يمكن حذف ضمير الوصل (that/which/who) إذا كان يحل محل 'الفاعل' (subject)، أي إذا جاء بعده فعل مباشرة. هنا 'that' جاء بعدها الفعل 'are'. مثال: I know the man who lives here. (أعرف الرجل الذي يعيش هنا.)",
+    "explanation": "شرح: لا يمكن حذف ضمير الوصل (**that/which/who**) إذا كان يحل محل 'الفاعل' (**subject**)، أي إذا جاء بعده فعل مباشرة. هنا **'that'** جاء بعدها الفعل **'are'**. مثال: \n**I know the man who lives here.**\n(أعرف الرجل الذي يعيش هنا.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1566,7 +1566,7 @@ export const quizData: Question[] = [
       "Cannot be omitted"
     ],
     "answer": "Can be omitted",
-    "explanation": "شرح: يمكن حذف ضمير الوصل إذا جاء بعده فاعل جديد (أي يعود على المفعول به). هنا 'that' جاء بعدها الفاعل 'the teacher'. مثال: The car (that) he bought is fast. (السيارة التي اشتراها سريعة.)",
+    "explanation": "شرح: يمكن حذف ضمير الوصل إذا جاء بعده فاعل جديد (أي يعود على المفعول به). هنا **'that'** جاء بعدها الفاعل **'the teacher'**. مثال: \n**The car (that) he bought is fast.**\n(السيارة التي اشتراها سريعة.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1576,7 +1576,7 @@ export const quizData: Question[] = [
       "Can be omitted"
     ],
     "answer": "Can be omitted",
-    "explanation": "شرح: يمكن حذف ضمير الوصل إذا كان يعود على المفعول به وجاء بعده فاعل (مثل 'I'). في هذه الجملة، 'that' جاء بعدها 'I'. مثال: The movie (that) we watched was great. (الفيلم الذي شاهدناه كان رائعاً.)",
+    "explanation": "شرح: يمكن حذف ضمير الوصل إذا كان يعود على المفعول به وجاء بعده فاعل (مثل **'I'**). في هذه الجملة، **'that'** جاء بعدها **'I'**. مثال: \n**The movie (that) we watched was great.**\n(الفيلم الذي شاهدناه كان رائعاً.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1586,7 +1586,7 @@ export const quizData: Question[] = [
       "Cannot be omitted"
     ],
     "answer": "Cannot be omitted",
-    "explanation": "شرح: لا يمكن حذف ضمير الوصل إذا كان هو فاعل جملة الوصل وجاء بعده فعل. هنا 'that' جاء بعدها الفعل 'plays'. مثال: The girl who sits next to me is smart. (الفتاة التي تجلس بجواري ذكية.)",
+    "explanation": "شرح: لا يمكن حذف ضمير الوصل إذا كان هو فاعل جملة الوصل وجاء بعده فعل. هنا **'that'** جاء بعدها الفعل **'plays'**. مثال: \n**The girl who sits next to me is smart.**\n(الفتاة التي تجلس بجواري ذكية.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1596,7 +1596,7 @@ export const quizData: Question[] = [
       "Cannot be omitted"
     ],
     "answer": "Cannot be omitted",
-    "explanation": "شرح: لا يمكن حذف ضمير الوصل إذا كان فاعلاً (يأتي بعده فعل مباشرة). هنا 'who' جاء بعدها الفعل 'live'. مثال: The boy who broke the window ran away. (الولد الذي كسر النافذة هرب.)",
+    "explanation": "شرح: لا يمكن حذف ضمير الوصل إذا كان فاعلاً (يأتي بعده فعل مباشرة). هنا **'who'** جاء بعدها الفعل **'live'**. مثال: \n**The boy who broke the window ran away.**\n(الولد الذي كسر النافذة هرب.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1606,7 +1606,7 @@ export const quizData: Question[] = [
       "I saw the man who stole the wallet."
     ],
     "answer": "I saw the man who stole the wallet.",
-    "explanation": "شرح: نستخدم ضمير الوصل 'who' للربط بين جملتين عندما نتحدث عن عاقل (إنسان). هنا 'the man' عاقل، فنستبدل 'He' بـ 'who'. مثال: The teacher who helps me is kind. (المعلم الذي يساعدني لطيف.)",
+    "explanation": "شرح: نستخدم ضمير الوصل **'who'** للربط بين جملتين عندما نتحدث عن عاقل (إنسان). هنا **'the man'** عاقل، فنستبدل **'He'** بـ **'who'**. مثال: \n**The teacher who helps me is kind.**\n(المعلم الذي يساعدني لطيف.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1616,7 +1616,7 @@ export const quizData: Question[] = [
       "The email that you sent to me didn't make sense."
     ],
     "answer": "The email that you sent to me didn't make sense.",
-    "explanation": "شرح: نستخدم ضمير الوصل 'that' أو 'which' للربط بين جملتين عند الحديث عن غير العاقل (أشياء). هنا 'The email' غير عاقل. مثال: The book that you gave me is interesting. (الكتاب الذي أعطيتني إياه مثير للاهتمام.)",
+    "explanation": "شرح: نستخدم ضمير الوصل **'that'** أو **'which'** للربط بين جملتين عند الحديث عن غير العاقل (أشياء). هنا **'The email'** غير عاقل. مثال: \n**The book that you gave me is interesting.**\n(الكتاب الذي أعطيتني إياه مثير للاهتمام.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1626,7 +1626,7 @@ export const quizData: Question[] = [
       "We saw a film on TV last night that was really depressing."
     ],
     "answer": "We saw a film on TV last night that was really depressing.",
-    "explanation": "شرح: نستخدم 'that' أو 'which' لغير العاقل. هنا 'a film' غير عاقل، فنربط الجملتين بـ 'that'. مثال: I bought a car that is very fast. (اشتريت سيارة سريعة جداً.)",
+    "explanation": "شرح: نستخدم **'that'** أو **'which'** لغير العاقل. هنا **'a film'** غير عاقل، فنربط الجملتين بـ **'that'**. مثال: \n**I bought a car that is very fast.**\n(اشتريت سيارة سريعة جداً.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1636,7 +1636,7 @@ export const quizData: Question[] = [
       "The man who asked for directions looked confused."
     ],
     "answer": "The man who asked for directions looked confused.",
-    "explanation": "شرح: نستخدم 'who' للفاعل العاقل (the man). نقوم بنقل جملة الوصل لتأتي مباشرة بعد الاسم الذي تصفه. مثال: The student who asked a question is smart. (الطالب الذي سأل سؤالاً ذكي.)",
+    "explanation": "شرح: نستخدم **'who'** للفاعل العاقل (**the man**). نقوم بنقل جملة الوصل لتأتي مباشرة بعد الاسم الذي تصفه. مثال: \n**The student who asked a question is smart.**\n(الطالب الذي سأل سؤالاً ذكي.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1648,7 +1648,7 @@ export const quizData: Question[] = [
       "make-believe, not real"
     ],
     "answer": "develop and change",
-    "explanation": "شرح: الكلمة 'evolve' تعني 'يتطور ويتغير' (develop and change) تدريجياً بمرور الوقت. مثال: Technology continues to evolve. (التكنولوجيا تستمر في التطور.)",
+    "explanation": "شرح: الكلمة **'evolve'** تعني 'يتطور ويتغير' (**develop and change**) تدريجياً بمرور الوقت. مثال: \n**Technology continues to evolve.**\n(التكنولوجيا تستمر في التطور.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1660,7 +1660,7 @@ export const quizData: Question[] = [
       "lack of ability"
     ],
     "answer": "something that is different from what is expected",
-    "explanation": "شرح: الكلمة 'exception' تعني 'استثناء' (something that is different from what is expected). مثال: Most dogs bark, but this one is an exception. (معظم الكلاب تنبح، لكن هذا الكلب استثناء.)",
+    "explanation": "شرح: الكلمة **'exception'** تعني 'استثناء' (**something that is different from what is expected**). مثال: \n**Most dogs bark, but this one is an exception.**\n(معظم الكلاب تنبح، لكن هذا الكلب استثناء.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1672,7 +1672,7 @@ export const quizData: Question[] = [
       "not favoring one side or the other"
     ],
     "answer": "make-believe, not real",
-    "explanation": "شرح: الكلمة 'fictitious' تعني 'خيالي' أو 'غير حقيقي' (make-believe, not real). مثال: The characters in this book are fictitious. (الشخصيات في هذا الكتاب خيالية.)",
+    "explanation": "شرح: الكلمة **'fictitious'** تعني 'خيالي' أو 'غير حقيقي' (**make-believe**, **not real**). مثال: \n**The characters in this book are fictitious.**\n(الشخصيات في هذا الكتاب خيالية.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1684,7 +1684,7 @@ export const quizData: Question[] = [
       "lack of ability"
     ],
     "answer": "devoted to improving the lives of all people",
-    "explanation": "شرح: الكلمة 'humanitarian' تعني 'إنساني' أو 'مهتم بتحسين حياة البشر' (devoted to improving the lives of all people). مثال: He received an award for his humanitarian work. (حصل على جائزة لعمله الإنساني.)",
+    "explanation": "شرح: الكلمة **'humanitarian'** تعني 'إنساني' أو 'مهتم بتحسين حياة البشر' (**devoted to improving the lives of all people**). مثال: \n**He received an award for his humanitarian work.**\n(حصل على جائزة لعمله الإنساني.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1696,7 +1696,7 @@ export const quizData: Question[] = [
       "honorable"
     ],
     "answer": "lack of ability",
-    "explanation": "شرح: الكلمة 'limitations' تعني 'حدود' أو 'نقص في القدرة' (lack of ability). مثال: We must know our own limitations. (يجب أن نعرف حدود قدراتنا.)",
+    "explanation": "شرح: الكلمة **'limitations'** تعني 'حدود' أو 'نقص في القدرة' (**lack of ability**). مثال: \n**We must know our own limitations.**\n(يجب أن نعرف حدود قدراتنا.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1708,7 +1708,7 @@ export const quizData: Question[] = [
       "shown to have exclusive legal ownership"
     ],
     "answer": "not favoring one side or the other",
-    "explanation": "شرح: الكلمة 'neutral' تعني 'محايد'، أي لا ينحاز لأي طرف (not favoring one side or the other). مثال: Switzerland remained neutral during the war. (بقيت سويسرا محايدة خلال الحرب.)",
+    "explanation": "شرح: الكلمة **'neutral'** تعني 'محايد'، أي لا ينحاز لأي طرف (**not favoring one side or the other**). مثال: \n**Switzerland remained neutral during the war.**\n(بقيت سويسرا محايدة خلال الحرب.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1720,7 +1720,7 @@ export const quizData: Question[] = [
       "honorable"
     ],
     "answer": "honorable",
-    "explanation": "شرح: الكلمة 'noble' تعني 'نبيل' أو 'شريف' (honorable). مثال: It was a noble effort to save the animals. (لقد كان جهداً نبيلاً لإنقاذ الحيوانات.)",
+    "explanation": "شرح: الكلمة **'noble'** تعني 'نبيل' أو 'شريف' (**honorable**). مثال: \n**It was a noble effort to save the animals.**\n(لقد كان جهداً نبيلاً لإنقاذ الحيوانات.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1732,7 +1732,7 @@ export const quizData: Question[] = [
       "develop and change"
     ],
     "answer": "shown to have exclusive legal ownership",
-    "explanation": "شرح: الكلمة 'trademarked' تعني 'مسجل كعلامة تجارية'، أي له ملكية قانونية حصرية (shown to have exclusive legal ownership). مثال: The company logo is trademarked. (شعار الشركة مسجل كعلامة تجارية.)",
+    "explanation": "شرح: الكلمة **'trademarked'** تعني 'مسجل كعلامة تجارية'، أي له ملكية قانونية حصرية (**shown to have exclusive legal ownership**). مثال: \n**The company logo is trademarked.**\n(شعار الشركة مسجل كعلامة تجارية.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1742,7 +1742,7 @@ export const quizData: Question[] = [
       "...is the day when people..."
     ],
     "answer": "...is the day when people...",
-    "explanation": "شرح: نستخدم 'when' للحديث عن الزمان (الوقت أو اليوم أو السنة). هنا 'the day' تشير إلى الزمان. مثال: Friday is the day when we rest. (الجمعة هو اليوم الذي نرتاح فيه.)",
+    "explanation": "شرح: نستخدم **'when'** للحديث عن الزمان (الوقت أو اليوم أو السنة). هنا **'the day'** تشير إلى الزمان. مثال: \n**Friday is the day when we rest.**\n(الجمعة هو اليوم الذي نرتاح فيه.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1752,7 +1752,7 @@ export const quizData: Question[] = [
       "...was the year when World War 1 ended."
     ],
     "answer": "...was the year when World War 1 ended.",
-    "explanation": "شرح: نستخدم 'when' للإشارة إلى الزمان. هنا 'the year' وقت فنربط بـ 'when'. مثال: 2000 was the year when my brother was born. (عام 2000 هو العام الذي ولد فيه أخي.)",
+    "explanation": "شرح: نستخدم **'when'** للإشارة إلى الزمان. هنا **'the year'** وقت فنربط بـ **'when'**. مثال: \n**2000 was the year when my brother was born.**\n(عام 2000 هو العام الذي ولد فيه أخي.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1762,7 +1762,7 @@ export const quizData: Question[] = [
       "There are websites where you can buy..."
     ],
     "answer": "There are websites where you can buy...",
-    "explanation": "شرح: نستخدم 'where' للإشارة إلى المكان. هنا 'websites' تعامل معاملة المكان الذي تشتري منه. مثال: This is the park where we play. (هذا هو المتنزه حيث نلعب.)",
+    "explanation": "شرح: نستخدم **'where'** للإشارة إلى المكان. هنا **'websites'** تعامل معاملة المكان الذي تشتري منه. مثال: \n**This is the park where we play.**\n(هذا هو المتنزه حيث نلعب.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1772,7 +1772,7 @@ export const quizData: Question[] = [
       "...is the time when my train arrives."
     ],
     "answer": "...is the time when my train arrives.",
-    "explanation": "شرح: تستخدم الكلمة 'when' كضمير وصل (Relative Pronoun) للإشارة إلى الوقت بدلاً من تكراره، وتربط بين جملتين. مثال: I remember the day when we first met. (أتذكر اليوم الذي التقينا فيه لأول مرة.)",
+    "explanation": "شرح: تستخدم الكلمة **'when'** كضمير وصل (**Relative Pronoun**) للإشارة إلى الوقت بدلاً من تكراره، وتربط بين جملتين. مثال: \n**I remember the day when we first met.**\n(أتذكر اليوم الذي التقينا فيه لأول مرة.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1783,7 +1783,7 @@ export const quizData: Question[] = [
       "was"
     ],
     "answer": "were",
-    "explanation": "شرح: بعد 'as if' و 'as though' للتعبير عن موقف افتراضي غير حقيقي في الحاضر، نستخدم الماضي البسيط. ولجميع الضمائر نستخدم 'were' بدلاً من 'was' (تسمى قاعدة Past Subjunctive). مثال: He acts as if he were the boss. (يتصرف وكأنه المدير.)",
+    "explanation": "شرح: بعد **'as if'** و **'as though'** للتعبير عن موقف افتراضي غير حقيقي في الحاضر، نستخدم الماضي البسيط. ولجميع الضمائر نستخدم **'were'** بدلاً من **'was'** (تسمى قاعدة **Past** **Subjunctive**). مثال: \n**He acts as if he were the boss.**\n(يتصرف وكأنه المدير.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1794,7 +1794,7 @@ export const quizData: Question[] = [
       "had"
     ],
     "answer": "had",
-    "explanation": "شرح: للتعبير عن موقف غير حقيقي أو افتراضي في الماضي بعد 'as if' أو 'as though'، نستخدم زمن الماضي التام (Past Perfect). مثال: She looked as though she had seen a ghost. (بدت وكأنها قد رأت شبحاً.)",
+    "explanation": "شرح: للتعبير عن موقف غير حقيقي أو افتراضي في الماضي بعد **'as if'** أو **'as though'**، نستخدم زمن الماضي التام (**Past Perfect**). مثال: \n**She looked as though she had seen a ghost.**\n(بدت وكأنها قد رأت شبحاً.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1805,7 +1805,7 @@ export const quizData: Question[] = [
       "finding"
     ],
     "answer": "found",
-    "explanation": "شرح: التعبيرات 'It's high time' أو 'It's about time' يُتبعها زمن الماضي البسيط للتعبير عن أن أمراً ما كان يجب أن يُنجز أو يُبدأ فيه من قبل (نصيحة قوية). مثال: It's high time you found a job. (لقد حان الوقت لكي تجد وظيفة.)",
+    "explanation": "شرح: التعبيرات **'It's high time'** أو **'It's about time'** يُتبعها زمن الماضي البسيط للتعبير عن أن أمراً ما كان يجب أن يُنجز أو يُبدأ فيه من قبل (نصيحة قوية). مثال: \n**It's high time you found a job.**\n(لقد حان الوقت لكي تجد وظيفة.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1816,7 +1816,7 @@ export const quizData: Question[] = [
       "thought"
     ],
     "answer": "thought",
-    "explanation": "شرح: نفس القاعدة السابقة؛ نستخدم الماضي البسيط مع 'It's about time' لنشير إلى ضرورة حدوث الفعل الآن أو تمني حدوثه في وقت مضى. مثال: It's about time you thought about your future. (لقد حان الوقت لكي تفكر في مستقبلك.)",
+    "explanation": "شرح: نفس القاعدة السابقة؛ نستخدم الماضي البسيط مع **'It's about time'** لنشير إلى ضرورة حدوث الفعل الآن أو تمني حدوثه في وقت مضى. مثال: \n**It's about time you thought about your future.**\n(لقد حان الوقت لكي تفكر في مستقبلك.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1826,7 +1826,7 @@ export const quizData: Question[] = [
       "I have neighbors who's son has the TV on loud."
     ],
     "answer": "I have neighbors whose son has the TV on loud.",
-    "explanation": "شرح: يُستخدم ضمير الوصل 'whose' للتعبير عن الملكية وربط جملتين. يحل محل صفات الملكية مثل (his, her, their)، ويأتي بعده دائماً اسم المملوك. مثال: I have a friend whose brother is famous. (لدي صديق أخوه مشهور.)",
+    "explanation": "شرح: يُستخدم ضمير الوصل **'whose'** للتعبير عن الملكية وربط جملتين. يحل محل صفات الملكية مثل (**his, her, their**)، ويأتي بعده دائماً اسم المملوك. مثال: \n**I have a friend whose brother is famous.**\n(لدي صديق أخوه مشهور.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1836,7 +1836,7 @@ export const quizData: Question[] = [
       "Is he the author whose books are so popular?"
     ],
     "answer": "Is he the author whose books are so popular?",
-    "explanation": "شرح: 'whose' تستخدم للإشارة للملكية. هنا استبدلنا صفة الملكية 'his' بضمير الوصل 'whose' مع إبقاء الاسم الذي يليه (books). مثال: Is he the author whose books are popular? (هل هو المؤلف الذي كتبه مشهورة؟)",
+    "explanation": "شرح: **'whose'** تستخدم للإشارة للملكية. هنا استبدلنا صفة الملكية **'his'** بضمير الوصل **'whose'** مع إبقاء الاسم الذي يليه (**books**). مثال: \n**Is he the author whose books are popular?**\n(هل هو المؤلف الذي كتبه مشهورة؟)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1846,7 +1846,7 @@ export const quizData: Question[] = [
       "The teacher who's course I'm taking is fantastic."
     ],
     "answer": "The teacher whose course I'm taking is fantastic.",
-    "explanation": "شرح: نستخدم 'whose' لنوضح لمن ينتمي الشيء. استبدلنا المضاف إليه (the teacher's) بالضمير 'whose' متبوعاً بالاسم المملوك (course). مثال: The teacher whose course I take is great. (المعلم الذي آخذ دُرسه رائع.)",
+    "explanation": "شرح: نستخدم **'whose'** لنوضح لمن ينتمي الشيء. استبدلنا المضاف إليه (**the teacher's**) بالضمير **'whose'** متبوعاً بالاسم المملوك (**course**). مثال: \n**The teacher whose course I take is great.**\n(المعلم الذي آخذ دُرسه رائع.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1856,7 +1856,7 @@ export const quizData: Question[] = [
       "I have a friend who's father is a doctor."
     ],
     "answer": "I have a friend whose father is a doctor.",
-    "explanation": "شرح: تُستخدم 'whose' كأداة وصل للتعبير عن الملكية بدلاً من (my friend's). الاسم الذي يأتي بعدها يكون مملوكاً للاسم الذي قبلها. مثال: I know a man whose father is a doctor. (أعرف رجلاً والده طبيب.)",
+    "explanation": "شرح: تُستخدم **'whose'** كأداة وصل للتعبير عن الملكية بدلاً من (**my friend's**). الاسم الذي يأتي بعدها يكون مملوكاً للاسم الذي قبلها. مثال: \n**I know a man whose father is a doctor.**\n(أعرف رجلاً والده طبيب.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1866,7 +1866,7 @@ export const quizData: Question[] = [
       "He is the chef whose restaurant is notorious."
     ],
     "answer": "He is the chef whose restaurant is notorious.",
-    "explanation": "شرح: نستعمل 'whose' للدلالة على ملكية الشيف للمطعم بدلاً من استعمال 'His' أو تكرار الاسم. مثال: He is the chef whose restaurant is notorious. (إنه الشيف الذي مطعمه ذائع الصيت.)",
+    "explanation": "شرح: نستعمل **'whose'** للدلالة على ملكية الشيف للمطعم بدلاً من استعمال **'His'** أو تكرار الاسم. مثال: \n**He is the chef whose restaurant is notorious.**\n(إنه الشيف الذي مطعمه ذائع الصيت.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1876,7 +1876,7 @@ export const quizData: Question[] = [
       "whose"
     ],
     "answer": "who's",
-    "explanation": "شرح: 'who's' هي اختصار لـ 'who is' ويأتي بعدها فعل مضاف له ing (في المضارع المستمر) أو صفة. في هذه الجملة، الفعل 'standing' يتطلب 'who is'. مثال: The man who's standing there is my uncle. (الرجل الذي يقف هناك هو عمي.)",
+    "explanation": "شرح: **'who's'** هي اختصار لـ **'who is'** ويأتي بعدها فعل مضاف له **ing** (في المضارع المستمر) أو صفة. في هذه الجملة، الفعل **'standing'** يتطلب **'who is'**. مثال: \n**The man who's standing there is my uncle.**\n(الرجل الذي يقف هناك هو عمي.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1886,7 +1886,7 @@ export const quizData: Question[] = [
       "who's"
     ],
     "answer": "who's",
-    "explanation": "شرح: 'who's' هنا تعني 'who is' لأن الجملة تحتاج إلى فعل الكون 'is' قبل الصفة 'notorious' (مشهور بسوء). مثال: He is the guy who's notorious for his lies. (إنه الشاب المعروف بأكاذيبه.)",
+    "explanation": "شرح: **'who's'** هنا تعني **'who is'** لأن الجملة تحتاج إلى فعل الكون **'is'** قبل الصفة **'notorious'** (مشهور بسوء). مثال: \n**He is the guy who's notorious for his lies.**\n(إنه الشاب المعروف بأكاذيبه.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1896,7 +1896,7 @@ export const quizData: Question[] = [
       "whose"
     ],
     "answer": "whose",
-    "explanation": "شرح: 'whose' تستخدم للملكية ولا يأتي بعدها فعل، بل اسم مملوك. في هذه الجملة الاسم هو (numbering system) وهو مملوك للعالم. مثال: The boy whose bike was stolen is sad. (الفتى الذي سُرقت دراجته حزين.)",
+    "explanation": "شرح: **'whose'** تستخدم للملكية ولا يأتي بعدها فعل، بل اسم مملوك. في هذه الجملة الاسم هو (**numbering system**) وهو مملوك للعالم. مثال: \n**The boy whose bike was stolen is sad.**\n(الفتى الذي سُرقت دراجته حزين.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1906,7 +1906,7 @@ export const quizData: Question[] = [
       "whose"
     ],
     "answer": "who's",
-    "explanation": "شرح: نستخدم الاختصار 'who's' الذي يعني 'who is' لأن الجملة تصف السكرتيرة بصفتين (responsible and efficient) وتحتاج إلى فعل الكون. مثال: I need a friend who's reliable. (أحتاج إلى صديق يُعتمد عليه.)",
+    "explanation": "شرح: نستخدم الاختصار **'who's'** الذي يعني **'who is'** لأن الجملة تصف السكرتيرة بصفتين (**responsible and efficient**) وتحتاج إلى فعل الكون. مثال: \n**I need a friend who's reliable.**\n(أحتاج إلى صديق يُعتمد عليه.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1916,7 +1916,7 @@ export const quizData: Question[] = [
       "whose"
     ],
     "answer": "who's",
-    "explanation": "شرح: 'who's' هنا هي اختصار لـ 'who has' لأنها متبوعة بالتصريف الثالث للفعل 'taught' في زمن المضارع التام (Present Perfect). مثال: The teacher who's taught me for years is retiring. (المعلم الذي دَرَّسَني لسنوات سيتقاعد.)",
+    "explanation": "شرح: **'who's'** هنا هي اختصار لـ **'who has'** لأنها متبوعة بالتصريف الثالث للفعل **'taught'** في زمن المضارع التام (**Present Perfect**). مثال: \n**The teacher who's taught me for years is retiring.**\n(المعلم الذي دَرَّسَني لسنوات سيتقاعد.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1926,7 +1926,7 @@ export const quizData: Question[] = [
       "whose"
     ],
     "answer": "whose",
-    "explanation": "شرح: تستخدم 'whose' لأنها تربط بين المالك (a friend) والمملوك (brother). وهي تعني (الذي أخوه...). مثال: I know a girl whose brother lives in London. (أعرف فتاة يعيش أخوها في لندن.)",
+    "explanation": "شرح: تستخدم **'whose'** لأنها تربط بين المالك (**a friend**) والمملوك (**brother**). وهي تعني (الذي أخوه...). مثال: \n**I know a girl whose brother lives in London.**\n(أعرف فتاة يعيش أخوها في لندن.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1938,7 +1938,7 @@ export const quizData: Question[] = [
       "real"
     ],
     "answer": "used to",
-    "explanation": "شرح: الكلمة 'accustomed' تعني (معتاد على)، وتُستخدم في القواعد كصفة (Adjective). غالباً ما يتبعها حرف الجر 'to' ثم اسم أو فعل ينتهي بـ 'ing' (Gerund). مثال: I am accustomed to working late. (أنا معتاد على العمل لوقت متأخر.)",
+    "explanation": "شرح: الكلمة **'accustomed'** تعني (معتاد على)، وتُستخدم في القواعد كصفة (**Adjective**). غالباً ما يتبعها حرف الجر **'to'** ثم اسم أو فعل ينتهي بـ **'ing'** (**Gerund**). مثال: \n**I am accustomed to working late.**\n(أنا معتاد على العمل لوقت متأخر.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1950,7 +1950,7 @@ export const quizData: Question[] = [
       "scientist who studies outer space"
     ],
     "answer": "someone who determines the value of something",
-    "explanation": "شرح: كلمة 'appraiser' (مُقَيِّم) هي اسم (Noun). في قواعد اللغة، غالباً ما تُضاف اللاحقة '-er' للفعل (appraise) لتكوين اسم الفاعل أو الشخص الذي يقوم بالعمل. مثال: The appraiser estimated the house's value. (قَدَّرَ المُقَيِّم قيمة المنزل.)",
+    "explanation": "شرح: كلمة **'appraiser'** (مُقَيِّم) هي اسم (**Noun**). في قواعد اللغة، غالباً ما تُضاف اللاحقة **'-er'** للفعل (**appraise**) لتكوين اسم الفاعل أو الشخص الذي يقوم بالعمل. مثال: \n**The appraiser estimated the house's value.**\n(قَدَّرَ المُقَيِّم قيمة المنزل.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1962,7 +1962,7 @@ export const quizData: Question[] = [
       "stuck between two things"
     ],
     "answer": "scientist who studies outer space",
-    "explanation": "شرح: كلمة 'astronomer' (عالم فلك) هي اسم فاعل (Noun) مشتق يدل على الشخص الذي يعمل في هذا المجال. النهاية '-er' تُستخدم كثيراً للدلالة على المهن. مثال: The astronomer discovered a new planet. (اكتشف عالم الفلك كوكباً جديداً.)",
+    "explanation": "شرح: كلمة **'astronomer'** (عالم فلك) هي اسم فاعل (**Noun**) مشتق يدل على الشخص الذي يعمل في هذا المجال. النهاية **'-er'** تُستخدم كثيراً للدلالة على المهن. مثال: \n**The astronomer discovered a new planet.**\n(اكتشف عالم الفلك كوكباً جديداً.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1974,7 +1974,7 @@ export const quizData: Question[] = [
       "used to"
     ],
     "answer": "real",
-    "explanation": "شرح: كلمة 'authentic' تعني (أصلي)، وتُصنف كصفة (Adjective) وتُستخدم لوصف الأسماء لتأكيد حقيقتها وعدم تزييفها. مثال: She bought an authentic leather bag. (اشترت حقيبة جلدية أصلية.)",
+    "explanation": "شرح: كلمة **'authentic'** تعني (أصلي)، وتُصنف كصفة (**Adjective**) وتُستخدم لوصف الأسماء لتأكيد حقيقتها وعدم تزييفها. مثال: \n**She bought an authentic leather bag.**\n(اشترت حقيبة جلدية أصلية.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1986,7 +1986,7 @@ export const quizData: Question[] = [
       "someone who determines the value of something"
     ],
     "answer": "find something by chance",
-    "explanation": "شرح: 'stumble upon' هو فعل مركب (Phrasal Verb) يعني (يعثر على شيء بالصدفة). يتكون من فعل أساسي وحرف جر يغيران المعنى الأصلي للفعل. مثال: I stumbled upon an old photo yesterday. (عثرت صدفة على صورة قديمة البارحة.)",
+    "explanation": "شرح: **'stumble upon'** هو فعل مركب (**Phrasal Verb**) يعني (يعثر على شيء بالصدفة). يتكون من فعل أساسي وحرف جر يغيران المعنى الأصلي للفعل. مثال: \n**I stumbled upon an old photo yesterday.**\n(عثرت صدفة على صورة قديمة البارحة.)",
     "unit": "UNIT 12 - Lost and Found"
   },
   {
@@ -1998,7 +1998,7 @@ export const quizData: Question[] = [
       "scientist who studies outer space"
     ],
     "answer": "stuck between two things",
-    "explanation": "شرح: كلمة 'wedged' (محشور) تُستخدم هنا كصفة (Adjective) مشتقة من التصريف الثالث للفعل (Past Participle)، لوصف حالة شيء عالق في مكان ضيق. مثال: The paper is wedged in the printer. (الورقة محشورة في الطابعة.)",
+    "explanation": "شرح: كلمة **'wedged'** (محشور) تُستخدم هنا كصفة (**Adjective**) مشتقة من التصريف الثالث للفعل (**Past Participle**)، لوصف حالة شيء عالق في مكان ضيق. مثال: \n**The paper is wedged in the printer.**\n(الورقة محشورة في الطابعة.)",
     "unit": "UNIT 12 - Lost and Found"
   }
 ];

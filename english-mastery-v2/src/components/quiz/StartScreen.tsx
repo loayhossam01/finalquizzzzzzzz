@@ -21,9 +21,7 @@ export default function StartScreen({ totalQuestions, safeQuestions }: StartScre
 
     startQuiz(mode as QuizMode, finalIndices);
   };
-
-  const units = Array.from(new Set(safeQuestions.map(q => q.unit)));
-
+  const units = Array.from(new Set(safeQuestions.map(q => q.unit).filter(Boolean))) as string[];
   return (
     <motion.div 
       initial={{ opacity: 0, scale: 0.95 }}

@@ -8,23 +8,32 @@ import SupplicationBanner from '@/components/SupplicationBanner';
 export default function Home() {
   // Strip answers and explanations on the server before sending to client
   // This prevents cheaters from looking at the JavaScript payload
-  const safeEnglishQuestions = englishData.map((q, idx) => ({
-    ...q,
-    originalIndex: idx,
-    options: q.options || [],
-  }));
+  const safeEnglishQuestions = englishData.map((q, idx) => {
+    const { answer, explanation, ...rest } = q;
+    return {
+      ...rest,
+      originalIndex: idx,
+      options: q.options || [],
+    };
+  });
 
-  const safePhysicsQuestions = physicsQuestions.map((q, idx) => ({
-    ...q,
-    originalIndex: idx,
-    options: q.options || [],
-  }));
+  const safePhysicsQuestions = physicsQuestions.map((q, idx) => {
+    const { answer, explanation, ...rest } = q;
+    return {
+      ...rest,
+      originalIndex: idx,
+      options: q.options || [],
+    };
+  });
 
-  const safeEarthScienceQuestions = earthScienceQuestions.map((q, idx) => ({
-    ...q,
-    originalIndex: idx,
-    options: q.options || [],
-  }));
+  const safeEarthScienceQuestions = earthScienceQuestions.map((q, idx) => {
+    const { answer, explanation, ...rest } = q;
+    return {
+      ...rest,
+      originalIndex: idx,
+      options: q.options || [],
+    };
+  });
 
   return (
     <main className="min-h-screen relative flex flex-col items-center justify-center p-6 pt-24 overflow-hidden">

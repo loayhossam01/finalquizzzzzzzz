@@ -5,6 +5,7 @@ import { CheckCircle2, XCircle, ArrowRight, Bookmark, BookmarkCheck, Home, Loade
 import { useState, useEffect } from 'react';
 import { useQuizStore } from '@/store/useQuizStore';
 import Image from 'next/image';
+import { submitAnswer, revealAnswer } from '@/app/actions/quiz';
 
 export interface QuizQuestion {
   originalIndex: number;
@@ -12,9 +13,9 @@ export interface QuizQuestion {
   question: string;
   imageUrl?: string;
   options: string[];
-  unit: string;
-  answer: string;
-  explanation: string;
+  unit?: string;
+  answer?: string;
+  explanation?: string;
 }
 
 interface ActiveQuizProps {
@@ -65,9 +66,18 @@ export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
         setShowImage(true);
       }
       
-      setServerCorrectAnswer(question.answer);
-      setServerExplanation(question.explanation);
-      setSelectedOption("LEARNING_MODE_REVEALED");
+      const fetchReveal = async () => {
+        try {
+          const result = await revealAnswer(currentSubject, realIndex);
+          setServerCorrectAnswer(result.correctAnswer);
+          setServerExplanation(result.explanation);
+          setSelectedOption("LEARNING_MODE_REVEALED");
+        } catch (error) {
+          console.error("Error auto-revealing:", error);
+        }
+      };
+      
+      fetchReveal();
     }
   }, [realIndex, isLearningMode, currentSubject, question]);
   
@@ -77,41 +87,46 @@ export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
 
   if (!question) return null; // Defensive check
 
-  const normalizeArabic = (text: string) => {
-    return text.trim()
-      .replace(/[أإآا]/g, 'ا')
-      .replace(/[ةه]/g, 'ه')
-      .replace(/\s+/g, ' ');
-  };
-
-  const handleSelect = (option: string) => {
+  const handleSelect = async (option: string) => {
     if (selectedOption || isLoading) return;
     
     setSelectedOption(option);
     setIsLoading(true);
 
     try {
-      const isCorrect = normalizeArabic(question.answer).includes(normalizeArabic(option)) && option.length > 2;
-      // In multiple-choice exactly matching
-      const finalIsCorrect = question.type === 'text' ? isCorrect : option === question.answer;
+      if (!currentSubject) return;
+      const result = await submitAnswer(currentSubject, realIndex, option);
 
-      setServerCorrectAnswer(question.answer);
-      setServerExplanation(question.explanation);
+      setServerCorrectAnswer(result.correctAnswer);
+      setServerExplanation(result.explanation);
       
       // Update global store
-      answerQuestion(realIndex, finalIsCorrect);
+      answerQuestion(realIndex, result.isCorrect);
+    } catch (error) {
+      console.error("Error submitting answer:", error);
+      setSelectedOption(null);
     } finally {
       setIsLoading(false);
     }
   };
 
-  const handleShowAnswer = () => {
+  const handleShowAnswer = async () => {
     if (isLoading) return;
     setIsLoading(true);
-    setServerExplanation(question.explanation);
-    answerQuestion(realIndex, true);
-    setSelectedOption("TEXT_ANSWER_REVEALED");
-    setIsLoading(false);
+    
+    try {
+      if (!currentSubject) return;
+      const result = await revealAnswer(currentSubject, realIndex);
+      
+      setServerExplanation(result.explanation);
+      setServerCorrectAnswer(result.correctAnswer);
+      answerQuestion(realIndex, true);
+      setSelectedOption("TEXT_ANSWER_REVEALED");
+    } catch (error) {
+      console.error("Error revealing answer:", error);
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const handleNext = () => {
@@ -122,6 +137,28 @@ export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
   };
 
   const showStatus = selectedOption !== null && !isLoading;
+
+  const renderFormattedExplanation = (text: string) => {
+    if (!text) return null;
+    return text.split('\n').map((line, i) => {
+      // Split by **text** or chunks containing English characters
+      const parts = line.split(/(\*\*.*?\*\*|[a-zA-Z][a-zA-Z0-9\s-]*[a-zA-Z0-9]|[a-zA-Z])/g);
+      
+      return (
+        <div key={i} className={`mb-3 flex flex-wrap items-center gap-1 leading-loose ${i === 0 ? 'text-xl font-bold text-foreground' : 'text-lg text-foreground/80'}`}>
+          {parts.map((part, j) => {
+            if (!part) return null;
+            if (part.startsWith('**') && part.endsWith('**')) {
+              return <span key={j} className="text-primary font-bold bg-primary/10 px-2 py-0.5 rounded-md border border-primary/20 shadow-sm">{part.slice(2, -2)}</span>;
+            } else if (/[A-Za-z]/.test(part)) {
+              return <span key={j} className="text-primary font-bold bg-primary/10 px-2 py-0.5 rounded-md inline-block border border-primary/20 shadow-sm" dir="ltr">{part}</span>;
+            }
+            return <span key={j} className="leading-loose">{part}</span>;
+          })}
+        </div>
+      );
+    });
+  };
 
   return (
     <div className="w-full max-w-4xl mx-auto flex flex-col lg:flex-row gap-8">
@@ -322,8 +359,8 @@ export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
                     </h3>
                   </div>
                   
-                  <div dir="rtl" className="text-lg leading-relaxed text-foreground/90 font-medium mb-8">
-                    {serverExplanation}
+                  <div dir="rtl" className="w-full">
+                    {renderFormattedExplanation(serverExplanation)}
                   </div>
                 </>
               ) : (
