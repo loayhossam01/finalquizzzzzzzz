@@ -36,7 +36,6 @@ export const earthScienceQuestions: Question[] = [
   {
     type: 'multiple-choice',
     question: 'أي من الكواكب التالية يُعرف بلقب "الكوكب الأحمر"؟',
-    imageUrl: '/images/earth-science/WhatsApp%20Image%202026-06-10%20at%206.33.36%20PM%20(1).jpeg',
     answer: 'المريخ',
     explanation: 'يُسمى المريخ بالكوكب الأحمر بسبب وفرة أكسيد الحديد (الصدأ) على سطحه.',
     unit: 'تجميعات علم الأرض',
