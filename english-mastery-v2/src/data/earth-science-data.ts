@@ -34,12 +34,22 @@ export const earthScienceQuestions: Question[] = [
     ]
   },
   {
-    type: 'multiple-choice',
-    question: 'أي من الكواكب التالية يُعرف بلقب "الكوكب الأحمر"؟',
-    answer: 'المريخ',
-    explanation: 'يُسمى المريخ بالكوكب الأحمر بسبب وفرة أكسيد الحديد (الصدأ) على سطحه.',
+    type: 'text',
+    question: 'اكتب المصطلح العلمي: أجرام سماوية تتكون في الغالب من الجليد والغازات المتجمدة (كما في الصورة).',
+    imageUrl: '/images/earth-science/WhatsApp%20Image%202026-06-10%20at%206.33.36%20PM%20(1).jpeg',
+    answer: 'المذنبات',
+    explanation: 'المذنبات (Comets) هي أجرام النظام الشمسي التي تتكون في الغالب من الجليد والغازات المتجمدة.',
     unit: 'تجميعات علم الأرض',
-    options: ['المريخ', 'الزهرة', 'المشتري', 'زحل']
+    options: []
+  },
+  {
+    type: 'text',
+    question: 'اكتب المصطلح العلمي: النيزك المحترق في الغلاف الجوي قبل أن يصل إلى الأرض ويكون ذيلاً طويلاً.',
+    imageUrl: '/images/earth-science/WhatsApp%20Image%202026-06-10%20at%206.33.36%20PM%20(1).jpeg',
+    answer: 'شهاب',
+    explanation: 'الشهاب (Meteor) يطلق على النيزك الذي يحترق في الغلاف الجوي وينتج عنه ذيل طويل.',
+    unit: 'تجميعات علم الأرض',
+    options: []
   },
   {
     type: 'multiple-choice',
