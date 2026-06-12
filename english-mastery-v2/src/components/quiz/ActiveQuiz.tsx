@@ -1,7 +1,7 @@
 'use client';
 
 import { motion, AnimatePresence } from 'framer-motion';
-import { CheckCircle2, XCircle, ArrowRight, Bookmark, BookmarkCheck, Home, Loader2, Image as ImageIcon } from 'lucide-react';
+import { CheckCircle2, XCircle, ArrowRight, Bookmark, BookmarkCheck, Home, Loader2, Image as ImageIcon, Maximize2 } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { useQuizStore } from '@/store/useQuizStore';
 import Image from 'next/image';
@@ -47,12 +47,14 @@ export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
   const [isLoading, setIsLoading] = useState(false);
   const [showImage, setShowImage] = useState(false);
   const [isImageZoomed, setIsImageZoomed] = useState(false);
+  const [isSideImageMode, setIsSideImageMode] = useState(false);
   const [textInput, setTextInput] = useState('');
   
   // Reset image view when question changes
   useEffect(() => {
     setShowImage(false);
     setIsImageZoomed(false);
+    setIsSideImageMode(false);
     setSelectedOption(null);
     setTextInput('');
     setServerExplanation(null);
@@ -161,13 +163,13 @@ export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
   };
 
   return (
-    <div className="w-full max-w-4xl mx-auto flex flex-col lg:flex-row gap-8">
+    <div className={`w-full mx-auto flex flex-col lg:flex-row gap-6 md:gap-8 transition-all duration-500 ${isLearningMode && isSideImageMode ? 'max-w-[98%] 2xl:max-w-[1400px]' : 'max-w-4xl'}`}>
       {/* Left Column: Question */}
       <motion.div 
         key={realIndex}
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
-        className="glass-panel p-6 md:p-10 rounded-3xl flex-1 flex flex-col relative overflow-hidden"
+        className={`glass-panel p-6 md:p-10 rounded-3xl flex-1 flex flex-col relative overflow-hidden order-1 lg:${isLearningMode && isSideImageMode ? 'order-2' : 'order-1'}`}
       >
         <div className="absolute top-0 left-0 w-full h-1 bg-foreground/10">
           <motion.div 
@@ -206,18 +208,29 @@ export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
             {question.question}
           </h2>
           {question.imageUrl && (
-            <button
-              onClick={() => setShowImage(!showImage)}
-              className="ml-4 p-2 shrink-0 rounded-full bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
-              title="View image"
-            >
-              <ImageIcon size={24} />
-            </button>
+            <div className="ml-4 flex items-center gap-2 shrink-0">
+              <button
+                onClick={() => setShowImage(!showImage)}
+                className={`p-2 rounded-full transition-colors ${showImage && !isSideImageMode ? 'bg-primary text-primary-foreground' : 'bg-primary/10 text-primary hover:bg-primary/20'}`}
+                title="عرض الصورة المصغرة"
+              >
+                <ImageIcon size={24} />
+              </button>
+              {isLearningMode && (
+                <button
+                  onClick={() => setIsSideImageMode(!isSideImageMode)}
+                  className={`p-2 rounded-full transition-colors hidden lg:flex ${isSideImageMode ? 'bg-primary text-primary-foreground' : 'bg-primary/10 text-primary hover:bg-primary/20'}`}
+                  title="توسيع الصورة بجانب السؤال (شاشة كاملة)"
+                >
+                  <Maximize2 size={24} />
+                </button>
+              )}
+            </div>
           )}
         </div>
 
           <AnimatePresence>
-            {showImage && question.imageUrl && (
+            {showImage && !isSideImageMode && question.imageUrl && (
               <motion.div 
                 initial={{ opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: "auto" }}
@@ -346,7 +359,7 @@ export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
             initial={{ opacity: 0, x: 20, height: 0 }}
             animate={{ opacity: 1, x: 0, height: 'auto' }}
             exit={{ opacity: 0, scale: 0.9 }}
-            className="lg:w-[400px] shrink-0"
+            className={`lg:w-[350px] xl:w-[400px] shrink-0 order-2 lg:${isLearningMode && isSideImageMode ? 'order-1' : 'order-2'}`}
           >
             <div className="glass-panel p-6 md:p-10 rounded-3xl h-full flex flex-col border-primary/30 shadow-[0_0_30px_rgba(6,182,212,0.15)] relative overflow-hidden">
               <div className="absolute -top-20 -right-20 w-40 h-40 bg-primary/20 rounded-full blur-3xl" />
@@ -402,6 +415,51 @@ export default function ActiveQuiz({ safeQuestions }: ActiveQuizProps) {
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* Side Image Column (Only in Learning Mode & Expanded) */}
+      <AnimatePresence>
+        {isLearningMode && isSideImageMode && question.imageUrl && (
+          <motion.div
+            initial={{ opacity: 0, width: 0, x: -20 }}
+            animate={{ opacity: 1, width: 'auto', x: 0 }}
+            exit={{ opacity: 0, width: 0, scale: 0.9 }}
+            className="hidden lg:flex lg:w-[400px] xl:w-[500px] shrink-0 order-3 flex-col"
+          >
+            <div className="glass-panel p-6 md:p-8 rounded-3xl h-full flex flex-col border-primary/30 shadow-[0_0_30px_rgba(6,182,212,0.15)] relative overflow-hidden">
+              <div className="flex justify-between items-center mb-6">
+                <h3 className="text-xl font-heading font-bold text-primary flex items-center gap-2">
+                  <ImageIcon size={24} /> الصورة المرفقة
+                </h3>
+                <button 
+                  onClick={() => setIsSideImageMode(false)}
+                  className="p-2 hover:bg-foreground/10 text-foreground/60 hover:text-foreground rounded-full transition-colors"
+                >
+                  <XCircle size={24} />
+                </button>
+              </div>
+              <div 
+                className="relative w-full h-full min-h-[400px] bg-black/5 rounded-2xl overflow-hidden cursor-zoom-in group"
+                onClick={() => setIsImageZoomed(true)}
+              >
+                <Image 
+                  src={question.imageUrl} 
+                  alt="صورة توضيحية للسؤال" 
+                  fill
+                  quality={100}
+                  unoptimized={true}
+                  className="object-contain transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors flex items-center justify-center">
+                  <span className="opacity-0 group-hover:opacity-100 bg-black/60 text-white px-4 py-2 rounded-full text-sm backdrop-blur-sm transition-opacity duration-300 shadow-xl">
+                    اضغط للتكبير بملء الشاشة
+                  </span>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
       {/* Image Zoom Lightbox Modal */}
       <AnimatePresence>
         {isImageZoomed && question.imageUrl && (
